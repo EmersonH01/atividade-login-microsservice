@@ -5,8 +5,6 @@ import java.time.LocalDateTime;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -14,6 +12,8 @@ import javax.persistence.Table;
 import javax.validation.Valid;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
+
+import org.hibernate.validator.constraints.br.CPF;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -33,13 +33,14 @@ public class UsuarioModel {
 	
 	@Column(unique = true, name = "usuario", nullable = false)
 	@NotBlank(message = "Este campo é obrigatório!")
-	@Email(message = "Insira um e-email válido!")
+	//@Email(message = "Insira um e-email válido!")
 	private String email;
 	
 	@NotBlank(message = "Este campo é obrigatório!")
 	private String senha;
 	
 	@NotBlank(message = "Este campo é obrigatório!")
+	@CPF
 	private String cpf; 
 
 	@Column(name = "tentativa_login")
@@ -53,12 +54,9 @@ public class UsuarioModel {
 
 	@Column(name = "data_exclusao")
 	private LocalDateTime dataExclusao;
-	
+
 	@Column
-	private int NumTentativasFalhas;
-	
-	@Enumerated(EnumType.STRING)
-	private StatusUsuarioEnum status;
+	private Boolean bloqueado;
 
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id_pessoa")
