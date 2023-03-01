@@ -19,7 +19,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.cruz.vita.usuario.dto.ResponseUsuarioDTO;
 import br.com.cruz.vita.usuario.dto.UsuarioDTO;
+import br.com.cruz.vita.usuario.model.UsuarioModel;
 import br.com.cruz.vita.usuario.service.CriptografiaService;
+import br.com.cruz.vita.usuario.service.SenhaService;
 import br.com.cruz.vita.usuario.service.UsuarioService;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -36,10 +38,18 @@ public class UsuarioController {
 
 	@Autowired
 	private UsuarioService usuarioService;
+	
+	@Autowired
+	private SenhaService senhaService;
 
 	@Value("${ambiente.deploy}")
 	private String profile;
 
+	@PostMapping("/login")
+	public ResponseEntity<String> autenticar(@RequestBody UsuarioModel usuario) {
+		return ResponseEntity.status(401).body(senhaService.autenticar(usuario));
+	}
+	
 	@GetMapping("/listar")
 	public ResponseEntity<List<ResponseUsuarioDTO>> listarUsuarios() {
 		infoAmbiente();

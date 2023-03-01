@@ -5,6 +5,8 @@ import java.time.LocalDateTime;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -55,8 +57,8 @@ public class UsuarioModel {
 	@Column(name = "data_exclusao")
 	private LocalDateTime dataExclusao;
 
-	@Column
-	private Boolean bloqueado;
+	@Enumerated(EnumType.STRING)
+	private StatusUsuarioEnum status;	
 
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id_pessoa")
