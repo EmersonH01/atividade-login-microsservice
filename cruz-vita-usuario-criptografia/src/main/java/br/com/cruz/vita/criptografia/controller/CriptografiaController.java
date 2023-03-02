@@ -27,5 +27,10 @@ public class CriptografiaController {
 	public ResponseEntity<String> encryptPassword(@RequestBody String password) {
 		return ResponseEntity.status(HttpStatus.ACCEPTED).body(criptografiaService.criptografarSenha(password));
 	}
+	
+	@PostMapping("/decrypt")
+	public ResponseEntity<String> decryptPassword(@RequestBody String passwordCripto, String passwordDecrypto ) {
+		return ResponseEntity.status(HttpStatus.ACCEPTED).body(criptografiaService.descriptografarSenha(passwordCripto, passwordDecrypto));
+	}
 
 }
