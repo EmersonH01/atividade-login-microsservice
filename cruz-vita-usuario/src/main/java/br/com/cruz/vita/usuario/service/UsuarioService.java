@@ -136,12 +136,13 @@ public class UsuarioService {
 
 	/* verifica se o CPF já é existente no banco de dados */
 	public Boolean verificarSeCPFJaExiste(String cpf) {
-
 		if (usuarioRepository.findByCpf(formatarCpf(cpf)).isPresent()) {
 			return false;
+
 		} else {
 
 			return true;
+
 		}
 	}
 
@@ -181,9 +182,9 @@ public class UsuarioService {
 	public Boolean verificarEmailJaExiste(String email) {
 
 		if (usuarioRepository.findByEmail(email).isPresent()) {
-			return false;
-		} else {
 			return true;
+		} else {
+			return false;
 		}
 	}
 
