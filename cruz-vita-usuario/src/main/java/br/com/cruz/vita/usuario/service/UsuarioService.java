@@ -138,10 +138,11 @@ public class UsuarioService {
 	public Boolean verificarSeCPFJaExiste(String cpf) {
 
 		if (usuarioRepository.findByCpf(cpf).isPresent()) {
-			return false;
+			return true;
 		} else {
 
-			return true;
+			return false;
+
 		}
 	}
 
@@ -181,9 +182,9 @@ public class UsuarioService {
 	public Boolean verificarEmailJaExiste(String email) {
 
 		if (usuarioRepository.findByEmail(email).isPresent()) {
-			return false;
-		} else {
 			return true;
+		} else {
+			return false;
 		}
 	}
 
