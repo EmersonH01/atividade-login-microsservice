@@ -20,7 +20,8 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.cruz.vita.usuario.dto.ResponseUsuarioDTO;
 import br.com.cruz.vita.usuario.dto.UsuarioDTO;
 import br.com.cruz.vita.usuario.model.UsuarioModel;
-import br.com.cruz.vita.usuario.repository.UsuarioRepository;
+import br.com.cruz.vita.usuario.service.CriptografiaService;
+import br.com.cruz.vita.usuario.service.SenhaService;
 import br.com.cruz.vita.usuario.service.UsuarioService;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -39,14 +40,14 @@ public class UsuarioController {
 	private UsuarioService usuarioService;
 	
 	@Autowired
-	private UsuarioRepository usuarioRepository ;
-	
+	private SenhaService senhaService;
+
 	@Value("${ambiente.deploy}")
 	private String profile;
 
 	@PostMapping("/login")
 	public ResponseEntity<String> autenticar(@RequestBody UsuarioModel usuario) {
-		return ResponseEntity.status(401).body(usuarioService.autenticar(usuario));
+		return ResponseEntity.status(401).body(senhaService.autenticar(usuario));
 	}
 	
 	@GetMapping("/listar")
@@ -92,12 +93,6 @@ public class UsuarioController {
 		return ResponseEntity.status(HttpStatus.CREATED).body(usuarioService.atualizarViaEmail(usuario, email));
 	}
 
-	@DeleteMapping("/excluir/{email}")
-	public ResponseEntity<String> excluirEmail(@PathVariable @Valid String email) {
-		infoAmbiente();
-		return ResponseEntity.status(HttpStatus.ACCEPTED).body(usuarioService.excluirPorEmail(email));
-	}
-
 	@DeleteMapping("/deletar/{email}")
 	public ResponseEntity<String> deletarEmail(@PathVariable @Valid String email) {
 		infoAmbiente();
@@ -106,6 +101,12 @@ public class UsuarioController {
 
 	public void infoAmbiente() {
 		log.info("O ambiente é: " + profile);
+	}
+
+	@DeleteMapping("/{id}")
+	public ResponseEntity<?> excluirUsuario(@PathVariable Long id) {
+		usuarioService.excluirUsuario(id);
+		return ResponseEntity.status(204).build();
 	}
 
 }

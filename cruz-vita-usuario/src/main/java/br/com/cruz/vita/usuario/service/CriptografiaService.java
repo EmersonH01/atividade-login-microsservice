@@ -7,5 +7,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 public interface CriptografiaService {
 
 	@PostMapping("/encrypt")
-	public String encryPassaword(String password);
+	public String encryptPassword(String password);
+
 }
