@@ -16,6 +16,13 @@ public class CriptografiaController {
 	@Autowired
 	private CriptografiaService criptografiaService;
 
+
+//	@PostMapping("/encrypt")
+//	public ResponseEntity<String> encryptPassword(@RequestBody String password) {
+//
+//		return ResponseEntity.status(HttpStatus.ACCEPTED).body(criptografiaService.criptografarSenha(password));
+//	}
+
 	@PostMapping("/encrypt")
 	public ResponseEntity<String> encryptPassword(@RequestBody String password) {
 		return ResponseEntity.status(HttpStatus.ACCEPTED).body(criptografiaService.criptografarSenha(password));
