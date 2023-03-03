@@ -5,11 +5,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class CriptografiaService {
-
-//	public String criptografarSenha(String password) {
-//		String hashedPassword = BCrypt.hashpw(password, BCrypt.gensalt());
-//		return hashedPassword;
-//	}
+	
 
 	public String criptografarSenha(String password) {
 		
@@ -27,6 +23,9 @@ public class CriptografiaService {
 		String senhaDescriptografada = cripto.decrypt(password);
 
 		return senhaDescriptografada;
+		
+		
+		
 
 	}
 
