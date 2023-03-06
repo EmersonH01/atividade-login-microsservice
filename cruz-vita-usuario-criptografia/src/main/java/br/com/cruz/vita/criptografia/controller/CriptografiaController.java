@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.cruz.vita.criptografia.service.CriptografiaService;
 
 @RestController
-@RequestMapping("/jasypt")
 public class CriptografiaController {
 
 	@Autowired
@@ -28,12 +27,21 @@ public class CriptografiaController {
 
 	@PostMapping("/encrypt")
 	public ResponseEntity<String> encryptPassword(@RequestBody String password) {
-		return ResponseEntity.status(HttpStatus.ACCEPTED).body(criptografiaService.criptografar(password));
+		return ResponseEntity.status(HttpStatus.ACCEPTED).body(criptografiaService.criptografarSenha(password));
 	}
 	
-	@PostMapping("/decrypt")
-	public ResponseEntity<String> decryptPassword(@RequestBody String passwordDecrypto ) {
-		return ResponseEntity.status(HttpStatus.ACCEPTED).body(criptografiaService.descriptografar(passwordDecrypto));
+	@GetMapping("/decrypt/{passwordencrypto}")
+	public ResponseEntity<String> decryptPassword(String passwordencrypto ) {
+		return ResponseEntity.status(HttpStatus.ACCEPTED).body(criptografiaService.descriptografar(passwordencrypto));
+	}
+	
+	@PostMapping("/teste")
+	public String testeDeMesa(@RequestBody String senha) {
+		
+		String decryptPassword = criptografiaService.descriptografar(senha);
+		
+		return decryptPassword;
+		
 	}
 
 }

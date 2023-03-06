@@ -1,60 +1,36 @@
 package br.com.cruz.vita.criptografia.service;
 
 import org.jasypt.util.text.BasicTextEncryptor;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 
 @Service
 public class CriptografiaService {
 
-//	public String criptografarSenha(String password) {
-//		String hashedPassword = BCrypt.hashpw(password, BCrypt.gensalt());
-//		return hashedPassword;	
-//	}
+	/*
+	 * public String criptografarSenha(String password) { String hashedPassword =
+	 * BCrypt.hashpw(password, BCrypt.gensalt()); return hashedPassword; }
+	 */
 
-	@Autowired 
-	private Environment environment;
 	
-	@Value("${jasypt.encryptor.password}")
-	private String minhaChave;
-
-
-	public String criptografar(String password) {
+	private final String chaveSeguranca = "projeto-atrasado";
+	
+	public String criptografarSenha(String password) {
 
 		BasicTextEncryptor cripto = new BasicTextEncryptor();
-		cripto.setPasswordCharArray(password.toCharArray());
+		cripto.setPasswordCharArray(chaveSeguranca.toCharArray());
 		String senhaCriptografada = cripto.encrypt(password);
 
 		return senhaCriptografada;
 	}
 
-	public String descriptografar(String criptografado) {
+	public String descriptografar(String passwordCripto) {
 
-		BasicTextEncryptor textEncryptor = new BasicTextEncryptor();
-	    textEncryptor.setPassword(environment.getProperty(minhaChave));
-	    return textEncryptor.decrypt(criptografado);
+		BasicTextEncryptor cripto = new BasicTextEncryptor();
+		cripto.setPasswordCharArray(chaveSeguranca.toCharArray());
+		String senhaDecriptografada = cripto.decrypt(passwordCripto);
+
+		return senhaDecriptografada;
 
 	}
 
-	/*
-	 * public String criptografarSenha(String password) {
-	 * 
-	 * BasicTextEncryptor cripto = new BasicTextEncryptor();
-	 * cripto.setPasswordCharArray(password.toCharArray()); String
-	 * senhaCriptografada = cripto.encrypt(password);
-	 * 
-	 * return senhaCriptografada; }
-	 * 
-	 * public String descriptografarSenha(String password) {
-	 * 
-	 * BasicTextEncryptor cripto = new BasicTextEncryptor();
-	 * cripto.setPasswordCharArray(password.toCharArray()); String
-	 * senhaDescriptografada = cripto.decrypt(password);
-	 * 
-	 * return senhaDescriptografada;
-	 * 
-	 * }
-	 */
 }

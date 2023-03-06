@@ -7,7 +7,6 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="javax.validation.constraints.NotNull"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
     <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="br.com.cruz.vita.usuario.model.UsuarioModel"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
@@ -27,12 +26,14 @@
     <fullyQualifiedTypeName name="org.springframework.cloud.config.server.EnableConfigServer"/>
     <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.EnableAutoConfiguration"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
     <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration"/>
     <fullyQualifiedTypeName name="org.springframework.web.client.RestTemplate"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
-    <fullyQualifiedTypeName name="org.springframework.security.crypto.bcrypt.BCrypt"/>
     <fullyQualifiedTypeName name="org.springframework.cloud.openfeign.EnableFeignClients"/>
     <fullyQualifiedTypeName name="br.com.cruz.vita.usuario.service.CriptografiaService"/>
     <fullyQualifiedTypeName name="org.springframework.core.env.Environment"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+    <fullyQualifiedTypeName name="org.springframework.security.crypto.bcrypt.BCrypt"/>
 </qualifiedTypeNameHistroy>

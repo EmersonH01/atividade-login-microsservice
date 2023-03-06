@@ -50,7 +50,6 @@ public class UsuarioService {
 
 	/* Busca todos usuarios por email que é passado na Url */
 	public String buscarPorEmail(String email) {
-		descriptografarTodosOsEmailDoBanco();
 		if (verificarEmailJaExiste(email)) {
 			return "usuario não encontrado";
 		} else {
@@ -81,14 +80,14 @@ public class UsuarioService {
 	/* cadastra um novo usuario */
 	public String cadastrarUsuario(UsuarioDTO usuario) {
 
-		if (verificarEmailJaExiste(usuario.getEmail()) && verificarSeCPFJaExiste(usuario.getCpf())
+		if (verificarEmailJaExiste(usuario.getEmail())&& verificarSeCPFJaExiste(usuario.getCpf())
 				&& validarCPF(usuario.getCpf())) {
 			UsuarioModel usuarioNovo = modelMapper.map(usuario, UsuarioModel.class);
 			usuarioNovo.setDataInclusao(LocalDateTime.now());
 			usuarioNovo.setCpf(formatarCpf(usuario.getCpf()));
-			String hashedPassword = cryptoService.encryptPassword(usuario.getSenha());
+			String hashedPassword = cryptoService.encrypt(usuario.getSenha());
 			usuarioNovo.setSenha(hashedPassword);
-			String hashedEmail = cryptoService.encryptPassword(usuario.getEmail());
+			String hashedEmail = cryptoService.encrypt(usuario.getEmail());
 			usuarioNovo.setEmail(hashedEmail);
 
 			usuarioRepository.save(usuarioNovo);
@@ -114,9 +113,9 @@ public class UsuarioService {
 					UsuarioModel usuarioModel = modelMapper.map(itemLista, UsuarioModel.class);
 					usuarioModel.setDataInclusao(LocalDateTime.now());
 					usuarioModel.setCpf(formatarCpf(itemLista.getCpf()));
-					String hashedPassword = cryptoService.encryptPassword(itemLista.getSenha());
+					String hashedPassword = cryptoService.encrypt(itemLista.getSenha());
 					usuarioModel.setSenha(hashedPassword);
-					String hashedEmail = cryptoService.encryptPassword(itemLista.getEmail());
+					String hashedEmail = cryptoService.encrypt(itemLista.getEmail());
 					usuarioModel.setEmail(hashedEmail);
 					usuarioRepository.save(usuarioModel);
 
@@ -217,15 +216,4 @@ public class UsuarioService {
 		return true;
 	}
 
-	/* Metodo para descriptografar todos os email */
-	public void descriptografarTodosOsEmailDoBanco() {
-
-		List<UsuarioModel> users = usuarioRepository.findAll();
-		for (UsuarioModel user : users) {
-			String email = user.getEmail();
-			String decryptedEmail = cryptoService.decryptPassword(email);
-			user.setEmail(decryptedEmail);
-			usuarioRepository.save(user);
-		}
-	}
 }
