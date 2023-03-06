@@ -48,13 +48,11 @@ public class UsuarioService {
 
 	/* Busca todos usuarios por email que é passado na Url */
 	public String buscarPorEmail(String email) {
-
 		if (verificarEmailJaExiste(email)) {
 			return "usuario não encontrado";
 		} else {
 			return "Email possui cadastro vinculado com o cpf: " + usuarioRepository.findByEmail(email).get().getCpf();
 		}
-
 	}
 
 	/* busca usuarios desativados pela data de exclusao */
@@ -80,23 +78,23 @@ public class UsuarioService {
 	/* cadastra um novo usuario */
 	public String cadastrarUsuario(UsuarioDTO usuario) {
 
-		if (verificarEmailJaExiste(usuario.getEmail()) && verificarSeCPFJaExiste(usuario.getCpf())
+		if (verificarEmailJaExiste(usuario.getEmail())&& verificarSeCPFJaExiste(usuario.getCpf())
 				&& validarCPF(usuario.getCpf())) {
 			UsuarioModel usuarioNovo = modelMapper.map(usuario, UsuarioModel.class);
 			usuarioNovo.setDataInclusao(LocalDateTime.now());
 			usuarioNovo.setCpf(formatarCpf(usuario.getCpf()));
-			String hashedPassword = cryptoService.encryptPassword(usuario.getSenha());
+			String hashedPassword = cryptoService.encrypt(usuario.getSenha());
 			usuarioNovo.setSenha(hashedPassword);
-			String hashedEmail = cryptoService.encryptPassword(usuario.getEmail());
+			String hashedEmail = cryptoService.encrypt(usuario.getEmail());
 			usuarioNovo.setEmail(hashedEmail);
 
 			usuarioRepository.save(usuarioNovo);
 
-			return "usuário criado com sucesso!";
+			return "Usuario criado com sucesso!";
 
 		} else {
 
-			return "usuario " + usuario.getCpf() + " já existente em nosso sistema!";
+			return "Usuario vinculado ao CPF:  " + formatarCpf(usuario.getCpf()) + " já existente em nosso sistema!";
 		}
 
 	}
@@ -113,14 +111,16 @@ public class UsuarioService {
 					UsuarioModel usuarioModel = modelMapper.map(itemLista, UsuarioModel.class);
 					usuarioModel.setDataInclusao(LocalDateTime.now());
 					usuarioModel.setCpf(formatarCpf(itemLista.getCpf()));
-					String hashedPassword = cryptoService.encryptPassword(itemLista.getSenha());
+					String hashedPassword = cryptoService.encrypt(itemLista.getSenha());
 					usuarioModel.setSenha(hashedPassword);
+					String hashedEmail = cryptoService.encrypt(itemLista.getEmail());
+					usuarioModel.setEmail(hashedEmail);
 					usuarioRepository.save(usuarioModel);
 
 				} else {
 
-					return ResponseEntity.status(HttpStatus.CREATED)
-							.body("usuario " + itemLista.getCpf() + " já existente em nosso sistema!");
+					return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Usuario vinculado ao CPF: "
+							+ formatarCpf(itemLista.getCpf()) + " já existente em nosso sistema!");
 				}
 			}
 
