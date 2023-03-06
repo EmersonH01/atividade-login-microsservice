@@ -11772,3 +11772,220 @@ Caused by: org.eclipse.core.runtime.CoreException: Cannot determine URI for '/co
 2023-03-06 10:53:20,758 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-03-06 10:53:20,761 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2023-03-06 10:53:20,762 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-06 10:53:20,765 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 10:53:20,765 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia\src\test\resources
+2023-03-06 11:05:54,608 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 11:05:54,622 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 11:05:54,625 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-06 11:05:54,649 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 11:05:54,650 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia\src\test\resources
+2023-03-06 11:12:07,416 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 11:12:07,440 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 11:12:07,444 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-06 11:12:07,454 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 11:12:07,454 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia\src\test\resources
+2023-03-06 11:14:09,315 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 11:14:09,354 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 11:14:09,357 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-06 11:14:09,409 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 11:14:09,409 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia\src\test\resources
+2023-03-06 11:17:10,657 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 11:17:10,664 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 11:17:10,666 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-06 11:17:10,671 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 11:17:10,672 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia\src\test\resources
+2023-03-06 11:18:37,385 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 11:18:37,387 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 11:18:37,389 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-06 11:18:37,393 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 11:18:37,394 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia\src\test\resources
+2023-03-06 11:25:35,377 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 11:25:35,406 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 11:25:35,407 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-06 11:25:35,482 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 11:25:35,483 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia\src\test\resources
+2023-03-06 11:30:59,109 [Worker-135: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 11:30:59,116 [Worker-135: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 11:30:59,118 [Worker-135: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-06 11:30:59,135 [Worker-135: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 11:30:59,136 [Worker-135: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia\src\test\resources
+2023-03-06 11:38:25,196 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2023-03-06 11:38:25,770 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149 [603])
+2023-03-06 11:38:25,803 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149
+2023-03-06 11:38:25,805 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\aether-connector-okhttp-0.17.8.jar
+2023-03-06 11:38:25,806 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-cli-1.4.jar
+2023-03-06 11:38:25,808 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-io-2.6.jar
+2023-03-06 11:38:25,810 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-lang3-3.8.1.jar
+2023-03-06 11:38:25,813 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\guice-4.2.2-no_aop.jar
+2023-03-06 11:38:25,815 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\jansi-2.4.0.jar
+2023-03-06 11:38:25,815 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-artifact-3.8.6.jar
+2023-03-06 11:38:25,816 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-builder-support-3.8.6.jar
+2023-03-06 11:38:25,817 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-compat-3.8.6.jar
+2023-03-06 11:38:25,818 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-core-3.8.6.jar
+2023-03-06 11:38:25,819 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-embedder-3.8.6.jar
+2023-03-06 11:38:25,820 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-3.8.6.jar
+2023-03-06 11:38:25,822 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-builder-3.8.6.jar
+2023-03-06 11:38:25,822 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-plugin-api-3.8.6.jar
+2023-03-06 11:38:25,822 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-repository-metadata-3.8.6.jar
+2023-03-06 11:38:25,824 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-api-1.6.3.jar
+2023-03-06 11:38:25,825 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-03-06 11:38:25,827 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-impl-1.6.3.jar
+2023-03-06 11:38:25,828 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-provider-3.8.6.jar
+2023-03-06 11:38:25,829 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-spi-1.6.3.jar
+2023-03-06 11:38:25,831 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-03-06 11:38:25,832 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-util-1.6.3.jar
+2023-03-06 11:38:25,834 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-3.8.6.jar
+2023-03-06 11:38:25,834 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-builder-3.8.6.jar
+2023-03-06 11:38:25,835 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-shared-utils-3.3.4.jar
+2023-03-06 11:38:25,836 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okhttp-3.14.1.jar
+2023-03-06 11:38:25,837 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okio-1.17.3.jar
+2023-03-06 11:38:25,838 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-03-06 11:38:25,839 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-03-06 11:38:25,839 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-build-api-0.0.7.jar
+2023-03-06 11:38:25,841 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-cipher-2.0.jar
+2023-03-06 11:38:25,842 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar
+2023-03-06 11:38:25,843 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-component-annotations-2.1.0.jar
+2023-03-06 11:38:25,843 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-interpolation-1.26.jar
+2023-03-06 11:38:25,844 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-sec-dispatcher-2.0.jar
+2023-03-06 11:38:25,844 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-utils-3.3.1.jar
+2023-03-06 11:38:25,845 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-file-3.5.1.jar
+2023-03-06 11:38:25,845 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-provider-api-3.5.1.jar
+2023-03-06 11:38:25,850 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_30.1.0.v20221112-0806 [10])
+2023-03-06 11:38:25,863 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\com.google.guava_30.1.0.v20221112-0806.jar
+2023-03-06 11:38:25,863 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [915])
+2023-03-06 11:38:25,865 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\slf4j.api_1.7.36.jar
+2023-03-06 11:38:25,865 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [32])
+2023-03-06 11:38:25,868 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-03-06 11:38:25,868 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221112-0806 [30])
+2023-03-06 11:38:25,873 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\javax.annotation_1.3.5.v20221112-0806.jar
+2023-03-06 11:38:25,895 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia":
+2023-03-06 11:38:25,896 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dmaven.test.skip=true -DskipTests -Dstyle.color=always clean install
+2023-03-06 11:42:47,229 [Worker-149: Launching cruz-vita-usuario (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\workspace\atividade-login-microsservice\cruz-vita-usuario":
+2023-03-06 11:42:47,233 [Worker-149: Launching cruz-vita-usuario (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -U -Dmaven.test.skip=true -DskipTests -Dstyle.color=always clean install
+2023-03-06 11:43:53,939 [Worker-151: Launching cruz-vita-usuario (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\workspace\atividade-login-microsservice\cruz-vita-usuario":
+2023-03-06 11:43:53,941 [Worker-151: Launching cruz-vita-usuario (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -U -Dmaven.test.skip=true -DskipTests -Dstyle.color=always clean install
+2023-03-06 11:44:45,369 [Worker-149: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-03-06 11:44:48,564 [Worker-149: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.cruz.vita.usuario:cruz-vita-usuario:0.0.1-SNAPSHOT @ C:\workspace\atividade-login-microsservice\cruz-vita-usuario\pom.xml.
+2023-03-06 11:44:53,630 [Worker-149: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cruz-vita-usuario/src/main/java
+2023-03-06 11:44:53,633 [Worker-149: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cruz-vita-usuario/src/main/resources
+2023-03-06 11:44:53,634 [Worker-149: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cruz-vita-usuario/src/main/resources
+2023-03-06 11:44:53,635 [Worker-149: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cruz-vita-usuario/src/test/java
+2023-03-06 11:44:55,537 [Worker-149: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 7,00 sec, update config takes 1,00 sec 
+2023-03-06 11:44:58,137 [Worker-152: Launching cruz-vita-usuario (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\workspace\atividade-login-microsservice\cruz-vita-usuario":
+2023-03-06 11:44:58,138 [Worker-152: Launching cruz-vita-usuario (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -U -Dmaven.test.skip=true -DskipTests -Dstyle.color=always clean install
+2023-03-06 11:45:59,247 [Worker-142: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-03-06 11:46:00,893 [Worker-142: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.cruz.vita.usuario:cruz-vita-usuario:0.0.1-SNAPSHOT @ C:\workspace\atividade-login-microsservice\cruz-vita-usuario\pom.xml.
+2023-03-06 11:46:01,853 [Worker-142: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.cruz.vita.criptografia:cruz-vita-usuario-criptografia:0.0.1-SNAPSHOT @ C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia\pom.xml.
+2023-03-06 11:46:03,977 [Worker-142: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cruz-vita-usuario/src/main/java
+2023-03-06 11:46:03,977 [Worker-142: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cruz-vita-usuario/src/main/resources
+2023-03-06 11:46:03,978 [Worker-142: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cruz-vita-usuario/src/main/resources
+2023-03-06 11:46:03,980 [Worker-142: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cruz-vita-usuario/src/test/java
+2023-03-06 11:46:04,894 [Worker-142: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cruz-vita-usuario-criptografia/src/main/java
+2023-03-06 11:46:04,894 [Worker-142: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cruz-vita-usuario-criptografia/src/main/resources
+2023-03-06 11:46:04,895 [Worker-142: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cruz-vita-usuario-criptografia/src/main/resources
+2023-03-06 11:46:04,896 [Worker-142: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cruz-vita-usuario-criptografia/src/test/java
+2023-03-06 11:46:06,868 [Worker-142: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 2 poms: local refresh takes 0,00 sec, refresh facades takes 4,00 sec, update config takes 1,00 sec 
+2023-03-06 11:46:17,437 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2023-03-06 11:46:18,156 [Worker-154: Launching cruz-vita-usuario-criptografia] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia":
+2023-03-06 11:46:18,157 [Worker-154: Launching cruz-vita-usuario-criptografia] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dmaven.test.skip=true -DskipTests -Dstyle.color=always clean install
+2023-03-06 11:47:26,211 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2023-03-06 11:47:26,862 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia":
+2023-03-06 11:47:26,863 [Worker-142: Launching cruz-vita-usuario-criptografia] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dmaven.test.skip=true -DskipTests -Dstyle.color=always clean install
+2023-03-06 11:48:13,250 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2023-03-06 11:48:13,322 [Worker-155: Launching config-server] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\workspace\atividade-login-microsservice\config-server":
+2023-03-06 11:48:13,323 [Worker-155: Launching config-server] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -U -Dmaven.test.skip=true -DskipTests -Dstyle.color=always clean install
+2023-03-06 11:51:32,953 [Worker-149: Launching cruz-vita-usuario (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\workspace\atividade-login-microsservice\cruz-vita-usuario":
+2023-03-06 11:51:32,967 [Worker-149: Launching cruz-vita-usuario (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -U -Dmaven.test.skip=true -DskipTests -Dstyle.color=always clean install
+2023-03-06 11:53:13,126 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-06 11:53:23,463 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 11:53:23,471 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-06 11:53:23,509 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 11:53:23,521 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 11:53:23,522 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\config-server\src\test\resources
+2023-03-06 11:53:37,296 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 11:53:37,318 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 11:53:37,320 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-06 11:53:37,372 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 11:53:37,373 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-06 11:53:43,078 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 11:53:43,080 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 11:53:43,081 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-06 11:53:43,104 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 11:53:43,104 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia\src\test\resources
+2023-03-06 11:54:35,332 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149 [603])
+2023-03-06 11:54:35,363 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149
+2023-03-06 11:54:35,365 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\aether-connector-okhttp-0.17.8.jar
+2023-03-06 11:54:35,365 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-cli-1.4.jar
+2023-03-06 11:54:35,366 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-io-2.6.jar
+2023-03-06 11:54:35,366 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-lang3-3.8.1.jar
+2023-03-06 11:54:35,367 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\guice-4.2.2-no_aop.jar
+2023-03-06 11:54:35,367 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\jansi-2.4.0.jar
+2023-03-06 11:54:35,368 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-artifact-3.8.6.jar
+2023-03-06 11:54:35,369 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-builder-support-3.8.6.jar
+2023-03-06 11:54:35,370 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-compat-3.8.6.jar
+2023-03-06 11:54:35,370 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-core-3.8.6.jar
+2023-03-06 11:54:35,371 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-embedder-3.8.6.jar
+2023-03-06 11:54:35,371 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-3.8.6.jar
+2023-03-06 11:54:35,372 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-builder-3.8.6.jar
+2023-03-06 11:54:35,372 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-plugin-api-3.8.6.jar
+2023-03-06 11:54:35,373 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-repository-metadata-3.8.6.jar
+2023-03-06 11:54:35,374 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-api-1.6.3.jar
+2023-03-06 11:54:35,375 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-03-06 11:54:35,375 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-impl-1.6.3.jar
+2023-03-06 11:54:35,376 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-provider-3.8.6.jar
+2023-03-06 11:54:35,377 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-spi-1.6.3.jar
+2023-03-06 11:54:35,378 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-03-06 11:54:35,378 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-util-1.6.3.jar
+2023-03-06 11:54:35,379 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-3.8.6.jar
+2023-03-06 11:54:35,379 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-builder-3.8.6.jar
+2023-03-06 11:54:35,380 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-shared-utils-3.3.4.jar
+2023-03-06 11:54:35,381 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okhttp-3.14.1.jar
+2023-03-06 11:54:35,381 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okio-1.17.3.jar
+2023-03-06 11:54:35,382 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-03-06 11:54:35,383 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-03-06 11:54:35,384 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-build-api-0.0.7.jar
+2023-03-06 11:54:35,385 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-cipher-2.0.jar
+2023-03-06 11:54:35,385 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar
+2023-03-06 11:54:35,386 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-component-annotations-2.1.0.jar
+2023-03-06 11:54:35,386 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-interpolation-1.26.jar
+2023-03-06 11:54:35,387 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-sec-dispatcher-2.0.jar
+2023-03-06 11:54:35,387 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-utils-3.3.1.jar
+2023-03-06 11:54:35,388 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-file-3.5.1.jar
+2023-03-06 11:54:35,389 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-provider-api-3.5.1.jar
+2023-03-06 11:54:35,395 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_30.1.0.v20221112-0806 [10])
+2023-03-06 11:54:35,402 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\com.google.guava_30.1.0.v20221112-0806.jar
+2023-03-06 11:54:35,403 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [915])
+2023-03-06 11:54:35,405 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\slf4j.api_1.7.36.jar
+2023-03-06 11:54:35,405 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [32])
+2023-03-06 11:54:35,413 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-03-06 11:54:35,413 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221112-0806 [30])
+2023-03-06 11:54:35,419 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\javax.annotation_1.3.5.v20221112-0806.jar
+2023-03-06 11:54:35,431 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\workspace\atividade-login-microsservice\cruz-vita-usuario":
+2023-03-06 11:54:35,432 [Worker-7: Launching cruz-vita-usuario (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -U -Dmaven.test.skip=true -DskipTests -Dstyle.color=always clean install
+2023-03-06 11:55:31,237 [Worker-20: Launching cruz-vita-usuario (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\workspace\atividade-login-microsservice\cruz-vita-usuario":
+2023-03-06 11:55:31,243 [Worker-20: Launching cruz-vita-usuario (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -U -Dmaven.test.skip=true -DskipTests -Dstyle.color=always clean install
+2023-03-06 11:56:38,762 [Worker-13: Launching cruz-vita-usuario (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\workspace\atividade-login-microsservice\cruz-vita-usuario":
+2023-03-06 11:56:38,763 [Worker-13: Launching cruz-vita-usuario (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -U -Dmaven.test.skip=true -DskipTests -Dstyle.color=always clean install
+2023-03-06 12:03:45,532 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 12:03:45,550 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 12:03:45,551 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 12:03:45,560 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 12:03:45,560 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-06 12:05:08,788 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 12:05:08,807 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 12:05:08,809 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-06 12:05:08,821 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 12:05:08,822 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia\src\test\resources
+2023-03-06 12:05:53,056 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 12:05:53,060 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 12:05:53,061 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-06 12:05:53,072 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 12:05:53,072 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia\src\test\resources
+2023-03-06 12:06:14,239 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 12:06:14,241 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 12:06:14,243 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-06 12:06:14,250 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 12:06:14,251 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia\src\test\resources
+2023-03-06 12:16:31,825 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 12:16:31,841 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 12:16:31,842 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource

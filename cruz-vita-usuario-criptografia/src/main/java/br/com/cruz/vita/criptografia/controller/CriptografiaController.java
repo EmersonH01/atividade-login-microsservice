@@ -32,7 +32,7 @@ public class CriptografiaController {
 	}
 	
 	@PostMapping("/decrypt")
-	public ResponseEntity<String> decryptPassword(@RequestBody @PathVariable String passwordDecrypto ) {
+	public ResponseEntity<String> decryptPassword(@RequestBody String passwordDecrypto ) {
 		return ResponseEntity.status(HttpStatus.ACCEPTED).body(criptografiaService.descriptografar(passwordDecrypto));
 	}
 
