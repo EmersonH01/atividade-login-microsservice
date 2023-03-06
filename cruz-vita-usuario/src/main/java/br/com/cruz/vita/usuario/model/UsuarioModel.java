@@ -12,6 +12,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.Valid;
+import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 
 import org.hibernate.validator.constraints.br.CPF;
@@ -34,7 +35,7 @@ public class UsuarioModel {
 	
 	@Column(unique = true, name = "usuario", nullable = false)
 	@NotBlank(message = "Este campo é obrigatório!")
-	//@Email(message = "Insira um e-email válido!")
+	@Email(message = "Insira um e-email válido!")
 	private String email;
 	
 	@NotBlank(message = "Este campo é obrigatório!")

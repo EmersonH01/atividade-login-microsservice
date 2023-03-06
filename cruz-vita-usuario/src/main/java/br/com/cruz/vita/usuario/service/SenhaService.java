@@ -18,7 +18,7 @@ public class SenhaService {
 	@Autowired
 	private UsuarioRepository usuarioRepository;
 
-	public String autenticar(UsuarioModel usuario) {
+	 public String autenticar(UsuarioModel usuario) {
 
 		if (usuarioRepository.findByEmail(usuario.getEmail()).isPresent()) {
 			UsuarioModel usuarioBanco = usuarioRepository.findByEmail(usuario.getEmail()).get();
@@ -52,15 +52,14 @@ public class SenhaService {
 		return "Email não existe na nossa base de dados";
 	}
 	
-	
-	  public boolean authenticate(String email , String senha ) {
-	        User user = usuarioRepository.findByEmail(email , senha );
+	  public boolean authenticate(String senha , String email ) {
+	        User user = usuarioRepository.findBysenha(senha );
 
 	        if (user != null) {
 	            BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
 
 	            // Verifica se os usuarios coincidem
-	            if (encoder.matches(email, user.getPassword())) {
+	            if (encoder.matches(senha , user.getPassword())) {
 	                return true;
 	            }
 	        }

@@ -3,7 +3,6 @@ package br.com.cruz.vita.usuario.service;
 import java.text.ParseException;
 import java.time.LocalDateTime;
 import java.util.List;
-import java.util.Map;
 import java.util.stream.Collectors;
 
 import javax.swing.text.MaskFormatter;
@@ -14,7 +13,6 @@ import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 
 import br.com.caelum.stella.validation.CPFValidator;
 import br.com.cruz.vita.usuario.dto.ResponseUsuarioDTO;

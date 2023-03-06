@@ -11,6 +11,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ResponseUsuarioDTO {
+	
 	@NotBlank(message = "Este campo é obrigatório!")
 	@Email(message = "Insira um e-email válido!")
 	private String email;
