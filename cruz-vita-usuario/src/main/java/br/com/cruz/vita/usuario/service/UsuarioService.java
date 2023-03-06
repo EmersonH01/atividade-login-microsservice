@@ -19,7 +19,6 @@ import org.springframework.web.client.RestTemplate;
 import br.com.caelum.stella.validation.CPFValidator;
 import br.com.cruz.vita.usuario.dto.ResponseUsuarioDTO;
 import br.com.cruz.vita.usuario.dto.UsuarioDTO;
-import br.com.cruz.vita.usuario.model.StatusUsuarioEnum;
 import br.com.cruz.vita.usuario.model.UsuarioModel;
 import br.com.cruz.vita.usuario.repository.UsuarioRepository;
 import lombok.AllArgsConstructor;
@@ -34,7 +33,7 @@ public class UsuarioService {
 
 	@Autowired
 	private UsuarioRepository usuarioRepository;
-	
+
 	@Autowired
 	private CriptografiaService cryptoService;
 
@@ -51,13 +50,11 @@ public class UsuarioService {
 
 	/* Busca todos usuarios por email que é passado na Url */
 	public String buscarPorEmail(String email) {
-		
 		if (verificarEmailJaExiste(email)) {
 			return "usuario não encontrado";
 		} else {
 			return "Email possui cadastro vinculado com o cpf: " + usuarioRepository.findByEmail(email).get().getCpf();
 		}
-
 	}
 
 	/* busca usuarios desativados pela data de exclusao */
@@ -83,47 +80,52 @@ public class UsuarioService {
 	/* cadastra um novo usuario */
 	public String cadastrarUsuario(UsuarioDTO usuario) {
 
-		if (verificarEmailJaExiste(usuario.getEmail()) && verificarSeCPFJaExiste(usuario.getCpf())
+		if (verificarEmailJaExiste(usuario.getEmail())&& verificarSeCPFJaExiste(usuario.getCpf())
 				&& validarCPF(usuario.getCpf())) {
 			UsuarioModel usuarioNovo = modelMapper.map(usuario, UsuarioModel.class);
 			usuarioNovo.setDataInclusao(LocalDateTime.now());
 			usuarioNovo.setCpf(formatarCpf(usuario.getCpf()));
-			String hashedPassword = cryptoService.encryPassaword(usuario.getSenha());
+			String hashedPassword = cryptoService.encrypt(usuario.getSenha());
 			usuarioNovo.setSenha(hashedPassword);
+			String hashedEmail = cryptoService.encrypt(usuario.getEmail());
+			usuarioNovo.setEmail(hashedEmail);
+
 			usuarioRepository.save(usuarioNovo);
-			
-			return "usuário criado com sucesso!";
-			
+
+			return "Usuario criado com sucesso!";
+
 		} else {
 
-			return "usuario " + usuario.getCpf() + " já existente em nosso sistema!";
+			return "Usuario vinculado ao CPF:  " + formatarCpf(usuario.getCpf()) + " já existente em nosso sistema!";
 		}
 
 	}
 
 	/* cadastra uma lista de usuarios */
 	public ResponseEntity<String> cadastrarPorLote(List<UsuarioDTO> usuario) {
-		
+
 		try {
-			
+
 			for (UsuarioDTO itemLista : usuario) {
-				
+
 				if (verificarEmailJaExiste(itemLista.getEmail()) && verificarSeCPFJaExiste(itemLista.getCpf())
 						&& validarCPF(itemLista.getCpf())) {
 					UsuarioModel usuarioModel = modelMapper.map(itemLista, UsuarioModel.class);
 					usuarioModel.setDataInclusao(LocalDateTime.now());
 					usuarioModel.setCpf(formatarCpf(itemLista.getCpf()));
-					String hashedPassword = cryptoService.encryPassaword(itemLista.getSenha());
+					String hashedPassword = cryptoService.encrypt(itemLista.getSenha());
 					usuarioModel.setSenha(hashedPassword);
+					String hashedEmail = cryptoService.encrypt(itemLista.getEmail());
+					usuarioModel.setEmail(hashedEmail);
 					usuarioRepository.save(usuarioModel);
-				
+
 				} else {
-					
-					return ResponseEntity.status(HttpStatus.CREATED)
-							.body("usuario " + itemLista.getCpf() + " já existente em nosso sistema!");
+
+					return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Usuario vinculado ao CPF: "
+							+ formatarCpf(itemLista.getCpf()) + " já existente em nosso sistema!");
 				}
 			}
-			
+
 			return ResponseEntity.status(HttpStatus.CREATED).body("Lote cadastrado com sucesso");
 
 		} catch (DataIntegrityViolationException ex) {
@@ -134,23 +136,25 @@ public class UsuarioService {
 
 	/* verifica se o CPF já é existente no banco de dados */
 	public Boolean verificarSeCPFJaExiste(String cpf) {
-
-		if (usuarioRepository.findByCpf(cpf).isPresent()) {
+		if (usuarioRepository.findByCpf(formatarCpf(cpf)).isPresent()) {
 			return false;
+
 		} else {
 
 			return true;
+
 		}
 	}
 
 	/* formatar cpf */
 	public String formatarCpf(String cpf) {
-		
+
 		if (cpf == null || cpf.length() != 11) {
 			return "CPF inválido";
 		}
 
 		try {
+
 			MaskFormatter mask = new MaskFormatter("###.###.###-##");
 			mask.setValueContainsLiteralCharacters(false);
 			return mask.valueToString(cpf);
@@ -163,7 +167,7 @@ public class UsuarioService {
 
 	/* valida se o cpf é verdadeiro ou falso */
 	public Boolean validarCPF(String cpf) {
-		
+
 		CPFValidator cpfValidator = new CPFValidator();
 		try {
 			cpfValidator.assertValid(cpf);
@@ -176,17 +180,17 @@ public class UsuarioService {
 
 	/* verifica se o email existe em nosso banco de dados */
 	public Boolean verificarEmailJaExiste(String email) {
-		
+
 		if (usuarioRepository.findByEmail(email).isPresent()) {
-			return false;
-		} else {
 			return true;
+		} else {
+			return false;
 		}
 	}
 
 	/* atualiza o usuario através do email passado e retorna uma mensagem */
 	public String atualizarViaEmail(UsuarioDTO usuario, String email) {
-		
+
 		UsuarioModel buscaEmail = usuarioRepository.findByEmail(email).get();
 		UsuarioModel usuarioModel = modelMapper.map(usuario, UsuarioModel.class);
 		usuarioModel.setId(buscaEmail.getId());
@@ -196,19 +200,9 @@ public class UsuarioService {
 		return "Usuário vinculado ao cpf " + cpfUsuario + " atualizado com sucesso.";
 	}
 
-	/* exclui de uma vez por todas o usuario do banco de dados */
-	public String excluirPorEmail(String email) {
-		
-		UsuarioModel buscaEmail = usuarioRepository.findByEmail(email).get();
-		String cpfUsuario = buscaEmail.getCpf();
-		usuarioRepository.delete(buscaEmail);
-		
-		return "usuário vinculado ao cpf " + cpfUsuario + " excluido com sucesso";
-	}
-
 	/* exclusão logica de usuario */
 	public String deletarPorEmail(String email) {
-		
+
 		UsuarioModel buscaEmail = usuarioRepository.findByEmail(email).get();
 //		DateTimeFormatter formatarDataEHora = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
 		buscaEmail.setDataExclusao(LocalDateTime.now());
@@ -218,42 +212,9 @@ public class UsuarioService {
 		return "usuário vinculado ao cpf " + cpfUsuario + " deletado com sucesso!";
 	}
 
-	
-	
-	//Trabalhando com senha de usuario 
-	public String autenticar(UsuarioModel usuario) {
-		
-	if (usuarioRepository.findByEmail(usuario.getEmail()).isPresent()) {
-		UsuarioModel usuarioBanco = usuarioRepository.findByEmail(usuario.getEmail()).get();
-		UsuarioModel usuarioModel = usuario;
-		usuarioModel.setId(usuarioBanco.getId());
-		usuarioModel.setStatus(usuarioBanco.getStatus());
-
-		if (usuarioModel.getSenha().equals(usuarioBanco.getSenha())) {
-			usuarioModel.setNumTentativasFalhas(0);
-			usuarioModel.setId(usuarioBanco.getId());
-			usuarioModel.setStatus(usuarioBanco.getStatus());
-			usuarioModel.setSenha(usuarioBanco.getSenha());
-			usuarioRepository.save(usuarioModel);
-			return "Usuário autenticado com sucesso!" + ResponseEntity.status(200).body(null) ;
-
-		} else {
-			usuarioBanco = usuarioRepository.findByEmail(usuario.getEmail()).get();
-			int tentativasFalhas = usuarioBanco.getNumTentativasFalhas();
-			usuarioModel.setNumTentativasFalhas(tentativasFalhas + 1);
-			usuarioModel.setStatus(usuarioBanco.getStatus());
-
-			usuarioRepository.save(usuarioModel);
-			if (tentativasFalhas + 1 >= 5) {
-				usuarioModel.setStatus(StatusUsuarioEnum.bloqueado);
-				usuarioRepository.save(usuarioModel);
-				return "Usuário bloqueado por muitas tentativas de login!";
-			}
-			return "Senha incorreta! Tentativa " + (tentativasFalhas + 1) + " de 5.";
-		}
+	public Boolean excluirUsuario(Long id) {
+		usuarioRepository.deleteById(id);
+		return true;
 	}
-	return "Email não existe na nossa base de dados";
-}
-
 
 }

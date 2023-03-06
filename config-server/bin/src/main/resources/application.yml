@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          search-paths: desenvolvimento, homologacao, producao, usuario
+          uri: https://github.com/HarturAlcantaraDev/config-server
+server:
+  port: '8888'
+

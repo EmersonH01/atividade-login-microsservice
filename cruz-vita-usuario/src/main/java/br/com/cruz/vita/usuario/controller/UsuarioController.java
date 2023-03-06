@@ -4,8 +4,10 @@ import java.util.List;
 
 import javax.validation.Valid;
 
+import org.jasypt.util.text.BasicTextEncryptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -21,6 +23,8 @@ import br.com.cruz.vita.usuario.dto.ResponseUsuarioDTO;
 import br.com.cruz.vita.usuario.dto.UsuarioDTO;
 import br.com.cruz.vita.usuario.model.UsuarioModel;
 import br.com.cruz.vita.usuario.repository.UsuarioRepository;
+import br.com.cruz.vita.usuario.service.CriptografiaService;
+import br.com.cruz.vita.usuario.service.SenhaService;
 import br.com.cruz.vita.usuario.service.UsuarioService;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -28,27 +32,33 @@ import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @RestController
-@RequestMapping("/usuario")
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
 @Slf4j
+@RequestMapping("/usuario")
 public class UsuarioController {
 
 	@Autowired
 	private UsuarioService usuarioService;
-	
+
 	@Autowired
-	private UsuarioRepository usuarioRepository ;
-	
+	private SenhaService senhaService;
+
+	@Autowired
+	private UsuarioRepository userRepository;
+
+	@Autowired
+	private Environment environment;
+
 	@Value("${ambiente.deploy}")
 	private String profile;
 
 	@PostMapping("/login")
 	public ResponseEntity<String> autenticar(@RequestBody UsuarioModel usuario) {
-		return ResponseEntity.status(401).body(usuarioService.autenticar(usuario));
+		return ResponseEntity.status(401).body(senhaService.autenticar(usuario));
 	}
-	
+
 	@GetMapping("/listar")
 	public ResponseEntity<List<ResponseUsuarioDTO>> listarUsuarios() {
 		infoAmbiente();
@@ -92,12 +102,6 @@ public class UsuarioController {
 		return ResponseEntity.status(HttpStatus.CREATED).body(usuarioService.atualizarViaEmail(usuario, email));
 	}
 
-	@DeleteMapping("/excluir/{email}")
-	public ResponseEntity<String> excluirEmail(@PathVariable @Valid String email) {
-		infoAmbiente();
-		return ResponseEntity.status(HttpStatus.ACCEPTED).body(usuarioService.excluirPorEmail(email));
-	}
-
 	@DeleteMapping("/deletar/{email}")
 	public ResponseEntity<String> deletarEmail(@PathVariable @Valid String email) {
 		infoAmbiente();
@@ -106,6 +110,12 @@ public class UsuarioController {
 
 	public void infoAmbiente() {
 		log.info("O ambiente é: " + profile);
+	}
+
+	@DeleteMapping("/{id}")
+	public ResponseEntity<?> excluirUsuario(@PathVariable Long id) {
+		usuarioService.excluirUsuario(id);
+		return ResponseEntity.status(204).build();
 	}
 
 }
