@@ -1,7 +1,8 @@
 package br.com.cruz.vita.criptografia.service;
 
 import org.jasypt.util.text.BasicTextEncryptor;
-import org.springframework.security.crypto.bcrypt.BCrypt;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -9,10 +10,14 @@ public class CriptografiaService {
 
 //	public String criptografarSenha(String password) {
 //		String hashedPassword = BCrypt.hashpw(password, BCrypt.gensalt());
-//		return hashedPassword;
+//		return hashedPassword;	
 //	}
 
-	public String criptografarSenha(String password) {
+	@Autowired
+	private Environment environment;
+
+
+	public String criptografar(String password) {
 
 		BasicTextEncryptor cripto = new BasicTextEncryptor();
 		cripto.setPasswordCharArray(password.toCharArray());
@@ -21,12 +26,11 @@ public class CriptografiaService {
 		return senhaCriptografada;
 	}
 
-	public String descriptografarSenha(String senhaCriptografada, String chaveCriptografia) {
+	public String descriptografar(String criptografado) {
 
-		BasicTextEncryptor cripto = new BasicTextEncryptor();
-		cripto.setPassword(chaveCriptografia);
-		String senhaDescriptografada = cripto.decrypt(senhaCriptografada);
-		return senhaDescriptografada;
+		BasicTextEncryptor textEncryptor = new BasicTextEncryptor();
+	    textEncryptor.setPassword(environment.getProperty("jasypt.encryptor.password"));
+	    return textEncryptor.decrypt(criptografado);
 
 	}
 

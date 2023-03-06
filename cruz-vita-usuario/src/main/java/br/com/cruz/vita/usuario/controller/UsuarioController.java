@@ -4,8 +4,10 @@ import java.util.List;
 
 import javax.validation.Valid;
 
+import org.jasypt.util.text.BasicTextEncryptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -20,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.cruz.vita.usuario.dto.ResponseUsuarioDTO;
 import br.com.cruz.vita.usuario.dto.UsuarioDTO;
 import br.com.cruz.vita.usuario.model.UsuarioModel;
-import br.com.cruz.vita.usuario.service.CriptografiaService;
+import br.com.cruz.vita.usuario.repository.UsuarioRepository;
 import br.com.cruz.vita.usuario.service.SenhaService;
 import br.com.cruz.vita.usuario.service.UsuarioService;
 import lombok.AllArgsConstructor;
@@ -41,6 +43,12 @@ public class UsuarioController {
 	
 	@Autowired
 	private SenhaService senhaService;
+	
+	@Autowired
+	private UsuarioRepository userRepository;
+
+	@Autowired
+	private Environment environment;
 
 	@Value("${ambiente.deploy}")
 	private String profile;

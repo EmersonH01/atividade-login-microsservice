@@ -1,3 +1,5 @@
+server:
+  port: 8888
 spring:
   cloud:
     config:
@@ -5,6 +7,3 @@ spring:
         git:
           search-paths: desenvolvimento, homologacao, producao, usuario
           uri: https://github.com/HarturAlcantaraDev/config-server
-server:
-  port: '8888'
-

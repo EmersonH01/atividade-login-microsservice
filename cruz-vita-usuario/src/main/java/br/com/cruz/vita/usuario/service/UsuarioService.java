@@ -50,13 +50,12 @@ public class UsuarioService {
 
 	/* Busca todos usuarios por email que é passado na Url */
 	public String buscarPorEmail(String email) {
-
+		descriptografarTodosOsEmailDoBanco();
 		if (verificarEmailJaExiste(email)) {
 			return "usuario não encontrado";
 		} else {
 			return "Email possui cadastro vinculado com o cpf: " + usuarioRepository.findByEmail(email).get().getCpf();
 		}
-
 	}
 
 	/* busca usuarios desativados pela data de exclusao */
@@ -94,11 +93,11 @@ public class UsuarioService {
 
 			usuarioRepository.save(usuarioNovo);
 
-			return "usuário criado com sucesso!";
+			return "Usuario criado com sucesso!";
 
 		} else {
 
-			return "usuario " + usuario.getCpf() + " já existente em nosso sistema!";
+			return "Usuario vinculado ao CPF:  " + formatarCpf(usuario.getCpf()) + " já existente em nosso sistema!";
 		}
 
 	}
@@ -117,12 +116,14 @@ public class UsuarioService {
 					usuarioModel.setCpf(formatarCpf(itemLista.getCpf()));
 					String hashedPassword = cryptoService.encryptPassword(itemLista.getSenha());
 					usuarioModel.setSenha(hashedPassword);
+					String hashedEmail = cryptoService.encryptPassword(itemLista.getEmail());
+					usuarioModel.setEmail(hashedEmail);
 					usuarioRepository.save(usuarioModel);
 
 				} else {
 
-					return ResponseEntity.status(HttpStatus.CREATED)
-							.body("usuario " + itemLista.getCpf() + " já existente em nosso sistema!");
+					return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Usuario vinculado ao CPF: "
+							+ formatarCpf(itemLista.getCpf()) + " já existente em nosso sistema!");
 				}
 			}
 
@@ -216,4 +217,15 @@ public class UsuarioService {
 		return true;
 	}
 
+	/* Metodo para descriptografar todos os email */
+	public void descriptografarTodosOsEmailDoBanco() {
+
+		List<UsuarioModel> users = usuarioRepository.findAll();
+		for (UsuarioModel user : users) {
+			String email = user.getEmail();
+			String decryptedEmail = cryptoService.decryptPassword(email);
+			user.setEmail(decryptedEmail);
+			usuarioRepository.save(user);
+		}
+	}
 }
