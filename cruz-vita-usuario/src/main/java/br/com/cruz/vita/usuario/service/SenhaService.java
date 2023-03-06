@@ -1,7 +1,11 @@
 package br.com.cruz.vita.usuario.service;
 
+import java.util.List;
+
+import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import br.com.cruz.vita.usuario.model.StatusUsuarioEnum;
@@ -47,5 +51,26 @@ public class SenhaService {
 		}
 		return "Email não existe na nossa base de dados";
 	}
+	
+	
+	  public boolean authenticate(String email , String senha ) {
+	        User user = usuarioRepository.findByEmail(email , senha );
 
+	        if (user != null) {
+	            BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+
+	            // Verifica se os usuarios coincidem
+	            if (encoder.matches(email, user.getPassword())) {
+	                return true;
+	            }
+	        }
+
+	        return false;
+	    }
+
+	    public List<UsuarioModel> getAllUsers() {
+	        return usuarioRepository.findAll();
+	    }
 }
+
+

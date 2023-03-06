@@ -9,5 +9,5 @@ class CruzVitaUsuarioApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
+	
 }

@@ -16,6 +16,7 @@ public class CriptografiaService {
 		return senhaCriptografada;
 	}
 
+	
 	public String descriptografarSenha(String password) {
 		
 		BasicTextEncryptor cripto = new BasicTextEncryptor();
@@ -24,9 +25,6 @@ public class CriptografiaService {
 
 		return senhaDescriptografada;
 		
-		
-		
-
 	}
 
 }
