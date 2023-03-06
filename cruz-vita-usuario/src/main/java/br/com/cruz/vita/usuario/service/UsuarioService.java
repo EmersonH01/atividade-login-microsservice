@@ -134,12 +134,12 @@ public class UsuarioService {
 
 	/* verifica se o CPF já é existente no banco de dados */
 	public Boolean verificarSeCPFJaExiste(String cpf) {
+		if (usuarioRepository.findByCpf(formatarCpf(cpf)).isPresent()) {
+			return false;
 
-		if (usuarioRepository.findByCpf(cpf).isPresent()) {
-			return true;
 		} else {
 
-			return false;
+			return true;
 
 		}
 	}
