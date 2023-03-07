@@ -12544,3 +12544,479 @@ Caused by: org.eclipse.core.runtime.CoreException: Cannot determine URI for '/co
 2023-03-06 19:16:28,575 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
 2023-03-06 19:19:37,764 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-03-06 19:19:37,813 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 19:19:37,814 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-06 19:19:37,842 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 19:19:37,843 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia\src\test\resources
+2023-03-06 20:00:15,311 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:00:15,333 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 20:00:15,334 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-06 20:00:15,341 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:00:15,342 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia\src\test\resources
+2023-03-06 20:02:28,636 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:02:28,655 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 20:02:28,657 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-06 20:02:28,675 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:02:28,675 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-06 20:03:26,842 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:03:26,852 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 20:03:26,854 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-06 20:03:26,861 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:03:26,862 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-06 20:05:00,799 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:05:00,838 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 20:05:00,840 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-06 20:05:00,871 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:05:00,871 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-06 20:10:58,496 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:10:58,522 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 20:10:58,526 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-06 20:10:58,544 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:10:58,545 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-06 20:12:18,620 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:12:18,640 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 20:12:18,643 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-06 20:12:18,652 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:12:18,653 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-06 20:15:46,752 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:15:46,915 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 20:15:46,938 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-06 20:15:46,977 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:15:46,977 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-06 20:15:51,620 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:15:51,624 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 20:15:51,628 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-06 20:15:51,642 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:15:51,642 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-06 20:18:37,144 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:18:37,226 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 20:18:37,231 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-06 20:18:37,264 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:18:37,265 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-06 20:19:19,515 [Worker-83: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-03-06 20:19:22,317 [Worker-83: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.cruz.vita.usuario:cruz-vita-usuario:0.0.1-SNAPSHOT @ C:\workspace\atividade-login-microsservice\cruz-vita-usuario\pom.xml.
+2023-03-06 20:19:29,694 [Worker-83: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cruz-vita-usuario/src/main/java
+2023-03-06 20:19:29,697 [Worker-83: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cruz-vita-usuario/src/main/resources
+2023-03-06 20:19:29,699 [Worker-83: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cruz-vita-usuario/src/main/resources
+2023-03-06 20:19:29,700 [Worker-83: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cruz-vita-usuario/src/test/java
+2023-03-06 20:19:34,157 [Worker-83: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 6,00 sec, update config takes 5,00 sec 
+2023-03-06 20:20:37,946 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-03-06 20:20:40,191 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.cruz.vita.usuario:cruz-vita-usuario:0.0.1-SNAPSHOT @ C:\workspace\atividade-login-microsservice\cruz-vita-usuario\pom.xml.
+2023-03-06 20:20:44,173 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cruz-vita-usuario/src/main/java
+2023-03-06 20:20:44,174 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cruz-vita-usuario/src/main/resources
+2023-03-06 20:20:44,175 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cruz-vita-usuario/src/main/resources
+2023-03-06 20:20:44,177 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cruz-vita-usuario/src/test/java
+2023-03-06 20:20:48,187 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 5,00 sec, update config takes 2,00 sec 
+2023-03-06 20:22:21,622 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-03-06 20:22:36,995 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149 [603])
+2023-03-06 20:22:37,017 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149
+2023-03-06 20:22:37,019 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\aether-connector-okhttp-0.17.8.jar
+2023-03-06 20:22:37,020 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-cli-1.4.jar
+2023-03-06 20:22:37,022 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-io-2.6.jar
+2023-03-06 20:22:37,024 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-lang3-3.8.1.jar
+2023-03-06 20:22:37,025 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\guice-4.2.2-no_aop.jar
+2023-03-06 20:22:37,027 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\jansi-2.4.0.jar
+2023-03-06 20:22:37,030 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-artifact-3.8.6.jar
+2023-03-06 20:22:37,031 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-builder-support-3.8.6.jar
+2023-03-06 20:22:37,032 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-compat-3.8.6.jar
+2023-03-06 20:22:37,033 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-core-3.8.6.jar
+2023-03-06 20:22:37,034 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-embedder-3.8.6.jar
+2023-03-06 20:22:37,035 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-3.8.6.jar
+2023-03-06 20:22:37,036 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-builder-3.8.6.jar
+2023-03-06 20:22:37,037 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-plugin-api-3.8.6.jar
+2023-03-06 20:22:37,038 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-repository-metadata-3.8.6.jar
+2023-03-06 20:22:37,039 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-api-1.6.3.jar
+2023-03-06 20:22:37,041 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-03-06 20:22:37,043 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-impl-1.6.3.jar
+2023-03-06 20:22:37,043 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-provider-3.8.6.jar
+2023-03-06 20:22:37,044 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-spi-1.6.3.jar
+2023-03-06 20:22:37,045 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-03-06 20:22:37,047 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-util-1.6.3.jar
+2023-03-06 20:22:37,049 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-3.8.6.jar
+2023-03-06 20:22:37,050 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-builder-3.8.6.jar
+2023-03-06 20:22:37,050 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-shared-utils-3.3.4.jar
+2023-03-06 20:22:37,052 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okhttp-3.14.1.jar
+2023-03-06 20:22:37,053 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okio-1.17.3.jar
+2023-03-06 20:22:37,054 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-03-06 20:22:37,056 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-03-06 20:22:37,057 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-build-api-0.0.7.jar
+2023-03-06 20:22:37,058 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-cipher-2.0.jar
+2023-03-06 20:22:37,059 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar
+2023-03-06 20:22:37,060 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-component-annotations-2.1.0.jar
+2023-03-06 20:22:37,061 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-interpolation-1.26.jar
+2023-03-06 20:22:37,062 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-sec-dispatcher-2.0.jar
+2023-03-06 20:22:37,064 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-utils-3.3.1.jar
+2023-03-06 20:22:37,065 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-file-3.5.1.jar
+2023-03-06 20:22:37,066 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-provider-api-3.5.1.jar
+2023-03-06 20:22:37,069 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_30.1.0.v20221112-0806 [10])
+2023-03-06 20:22:37,082 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\com.google.guava_30.1.0.v20221112-0806.jar
+2023-03-06 20:22:37,082 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [915])
+2023-03-06 20:22:37,085 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\slf4j.api_1.7.36.jar
+2023-03-06 20:22:37,086 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [32])
+2023-03-06 20:22:37,091 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-03-06 20:22:37,091 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221112-0806 [30])
+2023-03-06 20:22:37,094 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\javax.annotation_1.3.5.v20221112-0806.jar
+2023-03-06 20:22:37,108 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\workspace\atividade-login-microsservice\cruz-vita-usuario":
+2023-03-06 20:22:37,109 [Worker-85: Launching cruz-vita-usuario (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -U -Dmaven.test.skip=true -DskipTests -Dstyle.color=always clean install
+2023-03-06 20:38:42,873 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-06 20:40:57,543 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:40:57,695 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 20:40:57,704 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-06 20:40:57,850 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:40:57,850 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-06 20:41:00,927 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:41:00,929 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 20:41:00,930 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 20:41:00,938 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:41:00,938 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-06 20:45:35,182 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:45:35,197 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 20:45:35,200 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-06 20:45:35,213 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:45:35,213 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-06 20:45:40,098 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:45:40,102 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 20:45:40,104 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-06 20:45:40,116 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:45:40,117 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-06 20:45:53,432 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:45:53,437 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 20:45:53,439 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-06 20:45:53,445 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:45:53,446 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-06 20:46:44,054 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:46:44,074 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 20:46:44,078 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-06 20:46:44,105 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:46:44,106 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-06 20:47:22,368 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:47:22,374 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 20:47:22,376 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-06 20:47:22,384 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:47:22,384 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-06 20:48:17,759 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:48:17,768 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 20:48:17,773 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-06 20:48:17,815 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:48:17,816 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-06 20:55:17,780 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:55:17,834 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 20:55:17,836 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-06 20:55:17,849 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 20:55:17,849 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-06 21:12:25,334 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 21:12:25,368 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 21:12:25,370 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-06 21:12:25,380 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 21:12:25,380 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-06 21:13:34,566 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 21:13:34,596 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 21:13:34,600 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-06 21:13:34,616 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 21:13:34,617 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-06 21:20:25,598 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 21:20:25,606 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 21:20:25,613 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-06 21:20:25,623 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 21:20:25,623 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-06 21:21:30,584 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 21:21:30,603 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-06 21:21:30,605 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-06 21:21:30,614 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 21:21:30,614 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 08:53:09,378 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 08:53:09,407 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 08:53:09,411 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 08:53:09,419 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 08:53:09,420 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 09:10:33,425 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:10:33,454 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 09:10:33,457 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 09:10:33,478 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:10:33,478 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 09:12:17,579 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:12:17,592 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 09:12:17,594 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 09:12:17,613 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:12:17,614 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 09:12:24,152 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:12:24,160 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 09:12:24,164 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 09:12:24,171 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:12:24,171 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 09:13:14,887 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:13:14,902 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 09:13:14,906 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 09:13:14,918 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:13:14,919 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 09:15:11,057 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:15:11,075 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 09:15:11,079 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 09:15:11,089 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:15:11,089 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 09:15:17,109 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:15:17,118 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 09:15:17,121 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 09:15:17,128 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:15:17,128 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 09:15:40,385 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:15:40,389 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 09:15:40,391 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 09:15:40,435 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:15:40,435 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 09:15:50,713 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:15:50,719 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 09:15:50,722 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 09:15:50,733 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:15:50,733 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 09:16:20,330 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:16:20,336 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 09:16:20,339 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 09:16:20,348 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:16:20,348 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 09:16:29,594 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:16:29,606 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 09:16:29,608 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 09:16:29,614 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:16:29,615 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 09:16:48,170 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:16:48,176 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 09:16:48,178 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 09:16:48,193 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:16:48,193 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 09:18:09,090 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:18:09,122 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 09:18:09,125 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 09:18:09,135 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:18:09,136 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 09:20:06,389 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:20:06,400 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 09:20:06,403 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 09:20:06,417 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:20:06,417 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 09:24:14,595 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:24:14,606 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 09:24:14,608 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 09:24:14,617 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:24:14,617 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 09:26:48,835 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:26:48,844 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 09:26:48,846 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 09:26:48,907 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:26:48,908 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 09:53:38,611 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:53:38,642 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 09:53:38,645 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 09:53:38,659 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 09:53:38,659 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 10:03:45,005 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 10:03:45,018 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 10:03:45,018 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-07 10:03:45,101 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 10:03:45,101 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia\src\test\resources
+2023-03-07 10:04:31,492 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149 [603])
+2023-03-07 10:04:31,534 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149
+2023-03-07 10:04:31,538 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\aether-connector-okhttp-0.17.8.jar
+2023-03-07 10:04:31,539 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-cli-1.4.jar
+2023-03-07 10:04:31,541 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-io-2.6.jar
+2023-03-07 10:04:31,543 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-lang3-3.8.1.jar
+2023-03-07 10:04:31,544 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\guice-4.2.2-no_aop.jar
+2023-03-07 10:04:31,547 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\jansi-2.4.0.jar
+2023-03-07 10:04:31,549 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-artifact-3.8.6.jar
+2023-03-07 10:04:31,551 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-builder-support-3.8.6.jar
+2023-03-07 10:04:31,552 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-compat-3.8.6.jar
+2023-03-07 10:04:31,554 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-core-3.8.6.jar
+2023-03-07 10:04:31,555 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-embedder-3.8.6.jar
+2023-03-07 10:04:31,556 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-3.8.6.jar
+2023-03-07 10:04:31,558 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-builder-3.8.6.jar
+2023-03-07 10:04:31,559 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-plugin-api-3.8.6.jar
+2023-03-07 10:04:31,560 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-repository-metadata-3.8.6.jar
+2023-03-07 10:04:31,562 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-api-1.6.3.jar
+2023-03-07 10:04:31,563 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-03-07 10:04:31,563 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-impl-1.6.3.jar
+2023-03-07 10:04:31,565 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-provider-3.8.6.jar
+2023-03-07 10:04:31,567 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-spi-1.6.3.jar
+2023-03-07 10:04:31,568 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-03-07 10:04:31,570 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-util-1.6.3.jar
+2023-03-07 10:04:31,573 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-3.8.6.jar
+2023-03-07 10:04:31,575 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-builder-3.8.6.jar
+2023-03-07 10:04:31,578 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-shared-utils-3.3.4.jar
+2023-03-07 10:04:31,580 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okhttp-3.14.1.jar
+2023-03-07 10:04:31,581 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okio-1.17.3.jar
+2023-03-07 10:04:31,583 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-03-07 10:04:31,584 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-03-07 10:04:31,585 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-build-api-0.0.7.jar
+2023-03-07 10:04:31,586 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-cipher-2.0.jar
+2023-03-07 10:04:31,586 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar
+2023-03-07 10:04:31,588 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-component-annotations-2.1.0.jar
+2023-03-07 10:04:31,589 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-interpolation-1.26.jar
+2023-03-07 10:04:31,591 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-sec-dispatcher-2.0.jar
+2023-03-07 10:04:31,593 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-utils-3.3.1.jar
+2023-03-07 10:04:31,594 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-file-3.5.1.jar
+2023-03-07 10:04:31,594 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-provider-api-3.5.1.jar
+2023-03-07 10:04:31,602 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_30.1.0.v20221112-0806 [10])
+2023-03-07 10:04:31,617 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\com.google.guava_30.1.0.v20221112-0806.jar
+2023-03-07 10:04:31,617 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [915])
+2023-03-07 10:04:31,619 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\slf4j.api_1.7.36.jar
+2023-03-07 10:04:31,619 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [32])
+2023-03-07 10:04:31,624 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-03-07 10:04:31,624 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221112-0806 [30])
+2023-03-07 10:04:31,626 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\hartu\.p2\pool\plugins\javax.annotation_1.3.5.v20221112-0806.jar
+2023-03-07 10:04:31,643 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia":
+2023-03-07 10:04:31,645 [Worker-103: Launching cruz-vita-usuario-criptografia (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dmaven.test.skip=true -DskipTests -Dstyle.color=always clean install
+2023-03-07 10:07:18,190 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 10:07:18,285 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 10:07:18,286 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 10:07:18,299 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 10:07:18,299 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia\src\test\resources
+2023-03-07 10:09:13,567 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 10:09:13,574 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 10:09:13,576 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-07 10:09:13,586 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 10:09:13,587 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia\src\test\resources
+2023-03-07 10:09:14,861 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 10:09:14,866 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 10:09:14,870 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-07 10:09:14,877 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 10:09:14,878 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia\src\test\resources
+2023-03-07 10:11:25,603 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 10:11:25,611 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 10:11:25,614 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-07 10:11:25,623 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 10:11:25,623 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia\src\test\resources
+2023-03-07 10:15:42,819 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 10:15:42,848 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 10:15:42,850 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-07 10:15:42,860 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 10:15:42,861 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia\src\test\resources
+2023-03-07 10:21:32,092 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 10:21:32,115 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 10:21:32,116 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-07 10:21:32,124 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 10:21:32,124 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia\src\test\resources
+2023-03-07 11:23:20,106 [Worker-135: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 11:23:20,130 [Worker-135: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 11:23:20,133 [Worker-135: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 11:23:20,155 [Worker-135: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 11:23:20,156 [Worker-135: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 11:39:11,475 [Worker-140: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 11:39:11,488 [Worker-140: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 11:39:11,491 [Worker-140: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 11:39:11,499 [Worker-140: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 11:39:11,500 [Worker-140: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 11:39:51,648 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 11:39:51,656 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 11:39:51,659 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 11:39:51,725 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 11:39:51,725 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 11:40:17,475 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 11:40:17,486 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 11:40:17,488 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 11:40:17,499 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 11:40:17,501 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 11:50:55,829 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 11:50:55,869 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 11:50:55,873 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 11:50:55,884 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 11:50:55,884 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 11:55:32,271 [Worker-150: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 11:55:32,351 [Worker-150: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 11:55:32,356 [Worker-150: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 11:55:32,374 [Worker-150: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 11:55:32,374 [Worker-150: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 14:06:52,446 [Worker-162: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 14:06:52,478 [Worker-162: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 14:06:52,483 [Worker-162: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 14:06:52,494 [Worker-162: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 14:06:52,495 [Worker-162: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 14:09:10,319 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 14:09:10,365 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 14:09:10,367 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 14:09:10,384 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 14:09:10,384 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 14:09:21,112 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 14:09:21,122 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 14:09:21,124 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 14:09:21,171 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 14:09:21,172 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 14:10:07,544 [Worker-170: Launching cruz-vita-usuario (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\workspace\atividade-login-microsservice\cruz-vita-usuario":
+2023-03-07 14:10:07,546 [Worker-170: Launching cruz-vita-usuario (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dmaven.test.skip=true -DskipTests -Dstyle.color=always clean install
+2023-03-07 14:11:26,244 [Worker-167: Launching cruz-vita-usuario-criptografia (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia":
+2023-03-07 14:11:26,247 [Worker-167: Launching cruz-vita-usuario-criptografia (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dmaven.test.skip=true -DskipTests -Dstyle.color=always clean install
+2023-03-07 15:05:38,666 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:05:38,694 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 15:05:38,696 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 15:05:38,715 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:05:38,716 [Worker-175: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 15:05:39,036 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:05:39,038 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 15:05:39,046 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 15:05:39,060 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:05:39,062 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 15:05:39,223 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:05:39,226 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 15:05:39,226 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 15:05:39,283 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:05:39,283 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario-criptografia\src\test\resources
+2023-03-07 15:19:57,160 [Worker-184: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:19:57,230 [Worker-184: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 15:19:57,235 [Worker-184: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 15:19:57,252 [Worker-184: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:19:57,252 [Worker-184: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 15:20:07,682 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:20:07,694 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 15:20:07,698 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 15:20:07,711 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:20:07,713 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 15:35:08,169 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:35:08,199 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 15:35:08,206 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 15:35:08,216 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:35:08,216 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 15:39:23,279 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:39:23,301 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 15:39:23,303 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 15:39:23,310 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:39:23,311 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 15:39:38,308 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:39:38,318 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 15:39:38,320 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 15:39:38,349 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:39:38,350 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 15:40:09,291 [Worker-201: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:40:09,302 [Worker-201: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 15:40:09,304 [Worker-201: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 15:40:09,318 [Worker-201: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:40:09,318 [Worker-201: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 15:40:22,038 [Worker-202: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:40:22,046 [Worker-202: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 15:40:22,049 [Worker-202: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 15:40:22,070 [Worker-202: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:40:22,071 [Worker-202: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 15:41:32,455 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:41:32,469 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 15:41:32,472 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 15:41:32,488 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:41:32,488 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 15:41:50,046 [Worker-207: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:41:50,054 [Worker-207: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 15:41:50,056 [Worker-207: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 15:41:50,063 [Worker-207: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:41:50,064 [Worker-207: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 15:42:04,781 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:42:04,788 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 15:42:04,791 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 15:42:04,803 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:42:04,804 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 15:42:21,595 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:42:21,598 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 15:42:21,600 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 15:42:21,605 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:42:21,606 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 15:42:31,795 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:42:31,799 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 15:42:31,800 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-03-07 15:42:31,806 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:42:31,806 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\atividade-login-microsservice\cruz-vita-usuario\src\test\resources
+2023-03-07 15:44:06,690 [Worker-214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-07 15:44:06,713 [Worker-214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-07 15:44:06,717 [Worker-214: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
