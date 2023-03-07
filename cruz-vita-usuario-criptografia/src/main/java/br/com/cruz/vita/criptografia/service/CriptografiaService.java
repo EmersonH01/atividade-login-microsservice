@@ -11,9 +11,8 @@ public class CriptografiaService {
 	 * BCrypt.hashpw(password, BCrypt.gensalt()); return hashedPassword; }
 	 */
 
-	
 	private final String chaveSeguranca = "projeto-atrasado";
-	
+
 	public String criptografarSenha(String password) {
 
 		BasicTextEncryptor cripto = new BasicTextEncryptor();
