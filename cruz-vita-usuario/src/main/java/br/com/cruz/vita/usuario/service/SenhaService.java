@@ -12,9 +12,8 @@ import br.com.cruz.vita.usuario.repository.UsuarioRepository;
 public class SenhaService {
 
 	@Autowired
-	private UsuarioRepository usuarioRepository ;
-	
-	
+	private UsuarioRepository usuarioRepository;
+
 	public String autenticar(UsuarioModel usuario) {
 
 		if (usuarioRepository.findByEmail(usuario.getEmail()).isPresent()) {
@@ -34,7 +33,7 @@ public class SenhaService {
 			} else {
 				usuarioBanco = usuarioRepository.findByEmail(usuario.getEmail()).get();
 				Integer tentativasFalhas = usuarioBanco.getTentativaLogin();
-				usuarioModel.setTentativaLogin(tentativasFalhas + 1 );
+				usuarioModel.setTentativaLogin(tentativasFalhas + 1);
 				usuarioModel.setStatus(usuarioBanco.getStatus());
 
 				usuarioRepository.save(usuarioModel);
@@ -48,7 +47,5 @@ public class SenhaService {
 		}
 		return "Email não existe na nossa base de dados";
 	}
-	
-	
-	
+
 }
