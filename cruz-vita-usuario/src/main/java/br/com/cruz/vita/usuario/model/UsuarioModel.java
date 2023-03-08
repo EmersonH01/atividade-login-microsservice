@@ -12,10 +12,10 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.Valid;
-import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 
 import org.hibernate.validator.constraints.br.CPF;
+import org.springframework.http.ResponseEntity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

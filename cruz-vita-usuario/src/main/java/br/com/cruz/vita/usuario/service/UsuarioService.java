@@ -21,6 +21,7 @@ import br.com.caelum.stella.validation.InvalidStateException;
 import br.com.cruz.vita.usuario.dto.ResponseUsuarioDTO;
 import br.com.cruz.vita.usuario.dto.UsuarioDTO;
 import br.com.cruz.vita.usuario.exception.InvalidCpfException;
+import br.com.cruz.vita.usuario.model.StatusUsuarioEnum;
 import br.com.cruz.vita.usuario.model.UsuarioModel;
 import br.com.cruz.vita.usuario.repository.UsuarioRepository;
 
@@ -36,6 +37,45 @@ public class UsuarioService {
 	@Autowired
 	private ModelMapper modelMapper;
 
+	/* login do usuario */
+	public ResponseEntity<String> login(String email, String senha) {
+		Optional<UsuarioModel> optionalUsuario = usuarioRepository.findByEmail(cryptoService.encrypt(email));
+
+		if (optionalUsuario.isPresent()) {
+			UsuarioModel usuarioBanco = optionalUsuario.get();
+			String emailDescriptografado = cryptoService.decrypt(usuarioBanco.getEmail());
+
+			if (emailDescriptografado.equals(email) && usuarioBanco.getSenha().equals(senha)) {
+				usuarioBanco.setTentativaLogin(0);
+				usuarioRepository.save(usuarioBanco);
+				return ResponseEntity.ok("Usuário autenticado com sucesso!");
+			} else {
+				Integer tentativasFalhas = usuarioBanco.getTentativaLogin() + 1;
+				usuarioBanco.setTentativaLogin(tentativasFalhas);
+				usuarioRepository.save(usuarioBanco);
+				if (tentativasFalhas >= 5) {
+					usuarioBanco.setStatus(StatusUsuarioEnum.bloqueado);
+					usuarioRepository.save(usuarioBanco);
+					return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
+							.body("Usuário bloqueado por muitas tentativas de login!");
+				}
+				return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
+						.body("Email ou senha incorretos! Tentativa " + tentativasFalhas + " de 5.");
+			}
+		}
+		return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Email não existe na nossa base de dados");
+	}
+
+	
+	public List<UsuarioModel> listarUsuariosDescriptografados() {
+	    List<UsuarioModel> usuarios = usuarioRepository.findAll();
+	    for (UsuarioModel usuario : usuarios) {
+	        String emailDescriptografado = cryptoService.decrypt(usuario.getEmail());
+	        usuario.setEmail(emailDescriptografado);
+	    }
+	    return usuarios;
+	}
+
 	/* listar todos os usuarios através do metodo findAll da JpaRepository */
 	public List<ResponseUsuarioDTO> listarUsuario() {
 		List<UsuarioModel> lista = usuarioRepository.findAll();
@@ -46,7 +86,7 @@ public class UsuarioService {
 
 	/* Busca todos usuarios por email que é passado na Url */
 	public String buscarPorEmail(String email) {
-		if (verificarEmailJaExiste(email)) {
+		if (verificarEmail(email)) {
 			return "usuario não encontrado";
 		} else {
 			return "Email possui cadastro vinculado com o cpf: " + usuarioRepository.findByEmail(email).get().getCpf();
@@ -74,7 +114,7 @@ public class UsuarioService {
 
 	/* cadastra um novo usuario */
 	public ResponseEntity<String> cadastrarUsuario(UsuarioDTO usuario) throws InvalidCpfException {
-		if (!verificarEmailJaExiste(usuario.getEmail())) {
+		if (!verificarEmail(usuario.getEmail())) {
 			return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("E-mail já existente em nosso sistema!");
 		}
 		if (!verificarSeCPFJaExiste(usuario.getCpf())) {
@@ -101,7 +141,7 @@ public class UsuarioService {
 		List<UsuarioModel> usuariosModel = new ArrayList<>();
 
 		for (UsuarioDTO usuarioDTO : usuarios) {
-			if (verificarEmailJaExiste(usuarioDTO.getEmail()) || verificarSeCPFJaExiste(usuarioDTO.getCpf())
+			if (verificarEmail(usuarioDTO.getEmail()) || verificarSeCPFJaExiste(usuarioDTO.getCpf())
 					|| !validarCPF(usuarioDTO.getCpf())) {
 				return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
 						.body("Não foi possível cadastrar o usuário com CPF: " + formatarCpf(usuarioDTO.getCpf()));
@@ -131,18 +171,18 @@ public class UsuarioService {
 	/* formatar cpf */
 	public String formatarCpf(String cpf) throws InvalidCpfException {
 		cpf = cpf.replaceAll("\\D", "");
-	    if (cpf == null || cpf.length() != 11) {
-	        throw new InvalidCpfException("CPF inválido");
-	    }
+		if (cpf == null || cpf.length() != 11) {
+			throw new InvalidCpfException("CPF inválido");
+		}
 
-	    try {
-	        MaskFormatter mask = new MaskFormatter("###.###.###-##");
-	        mask.setValueContainsLiteralCharacters(false);
-	        return mask.valueToString(cpf);
-	    } catch (ParseException ep) {
-	        ep.printStackTrace();
-	        throw new InvalidCpfException("Erro ao formatar CPF");
-	    }
+		try {
+			MaskFormatter mask = new MaskFormatter("###.###.###-##");
+			mask.setValueContainsLiteralCharacters(false);
+			return mask.valueToString(cpf);
+		} catch (ParseException ep) {
+			ep.printStackTrace();
+			throw new InvalidCpfException("Erro ao formatar CPF");
+		}
 	}
 
 	/* valida se o cpf é verdadeiro ou falso */
@@ -157,8 +197,15 @@ public class UsuarioService {
 	}
 
 	/* verifica se o email existe em nosso banco de dados */
-	public Boolean verificarEmailJaExiste(String email) {
-		return !usuarioRepository.findByEmail(email).isPresent();
+	public boolean verificarEmail(String email) {
+	    List<UsuarioModel> usuarios = usuarioRepository.findAll();
+	    for (UsuarioModel usuario : usuarios) {
+	        String emailDescriptografado = cryptoService.decrypt(usuario.getEmail());
+	        if (emailDescriptografado.equals(email)) {
+	            return false;
+	        }
+	    }
+	    return true;
 	}
 
 	/* atualiza o usuario através do email passado e retorna uma mensagem */

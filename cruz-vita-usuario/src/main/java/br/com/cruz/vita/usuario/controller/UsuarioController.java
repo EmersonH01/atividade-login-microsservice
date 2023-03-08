@@ -1,10 +1,10 @@
 package br.com.cruz.vita.usuario.controller;
 
 import java.util.List;
+import java.util.Optional;
 
 import javax.validation.Valid;
 
-import org.jasypt.util.text.BasicTextEncryptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.env.Environment;
@@ -19,9 +19,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import br.com.cruz.vita.usuario.dto.LoginDTO;
 import br.com.cruz.vita.usuario.dto.ResponseUsuarioDTO;
 import br.com.cruz.vita.usuario.dto.UsuarioDTO;
 import br.com.cruz.vita.usuario.exception.InvalidCpfException;
+import br.com.cruz.vita.usuario.model.StatusUsuarioEnum;
 import br.com.cruz.vita.usuario.model.UsuarioModel;
 import br.com.cruz.vita.usuario.repository.UsuarioRepository;
 import br.com.cruz.vita.usuario.service.CriptografiaService;
@@ -47,7 +49,10 @@ public class UsuarioController {
 	private SenhaService senhaService;
 
 	@Autowired
-	private UsuarioRepository userRepository;
+	private UsuarioRepository usuarioRepository;
+
+	@Autowired
+	private CriptografiaService cryptoService;
 
 	@Autowired
 	private Environment environment;
@@ -55,9 +60,15 @@ public class UsuarioController {
 	@Value("${ambiente.deploy}")
 	private String profile;
 
+	
 	@PostMapping("/login")
-	public ResponseEntity<String> autenticar(@RequestBody UsuarioModel usuario) {
-		return ResponseEntity.status(401).body(senhaService.autenticar(usuario));
+    public ResponseEntity<String> autenticar(@RequestBody UsuarioModel usuario) {
+        return ResponseEntity.status(401).body(senhaService.autenticar(usuario));
+    }
+	
+	@PostMapping("/loginHartur")
+	public ResponseEntity<String> login(@RequestBody LoginDTO usuario) {
+		return usuarioService.login(usuario.getEmail(), usuario.getSenha());
 	}
 
 	@GetMapping("/listar")
@@ -86,13 +97,13 @@ public class UsuarioController {
 	}
 
 	@PostMapping("/cadastrar")
-	public ResponseEntity<ResponseEntity<String>> cadastrarUsuario(@RequestBody @Valid UsuarioDTO usuario) throws InvalidCpfException {
+	public ResponseEntity<String> cadastrarUsuario(@RequestBody @Valid UsuarioDTO usuario) {
 		infoAmbiente();
-		return ResponseEntity.status(HttpStatus.CREATED).body(usuarioService.cadastrarUsuario(usuario));
+		return usuarioService.cadastrarUsuario(usuario);
 	}
-	
+
 	@PostMapping("/criarlote")
-	public ResponseEntity<String> criarUsuarioLote(@RequestBody @Valid List<UsuarioDTO> usuario) throws InvalidCpfException {
+	public ResponseEntity<String> criarUsuarioLote(@RequestBody @Valid List<UsuarioDTO> usuario) {
 		infoAmbiente();
 		return ResponseEntity.status(HttpStatus.CREATED).body(usuarioService.cadastrarPorLote(usuario).getBody());
 	}
@@ -104,7 +115,7 @@ public class UsuarioController {
 	}
 
 	@DeleteMapping("/deletar/{email}")
-	public ResponseEntity<String> deletarEmail(@PathVariable @Valid String email) throws InvalidCpfException {
+	public ResponseEntity<String> deletarEmail(@PathVariable @Valid String email) {
 		infoAmbiente();
 		return ResponseEntity.status(HttpStatus.ACCEPTED).body(usuarioService.deletarPorEmail(email));
 	}
