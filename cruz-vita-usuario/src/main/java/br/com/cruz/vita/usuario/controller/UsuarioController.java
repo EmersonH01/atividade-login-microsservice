@@ -35,11 +35,11 @@ import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @RestController
-@RequestMapping("/usuario")
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
 @Slf4j
+@RequestMapping("/usuario")
 public class UsuarioController {
 
 	@Autowired

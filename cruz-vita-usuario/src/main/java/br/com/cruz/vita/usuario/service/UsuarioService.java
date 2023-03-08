@@ -188,6 +188,7 @@ public class UsuarioService {
 	/* verifica se o CPF já é existente no banco de dados */
 	public Boolean verificarSeCPFJaExiste(String cpf) throws InvalidCpfException {
 		return !usuarioRepository.findByCpf(formatarCpf(cpf)).isPresent();
+
 	}
 
 	/* formatar cpf */

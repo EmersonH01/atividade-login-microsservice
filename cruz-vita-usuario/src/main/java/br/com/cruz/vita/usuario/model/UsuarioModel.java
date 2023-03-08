@@ -42,7 +42,7 @@ public class UsuarioModel {
 	private String senha;
 	
 	@NotBlank(message = "Este campo é obrigatório!")
-	@CPF
+	//@CPF
 	private String cpf; 
 
 	@Column(name = "tentativa_login")
