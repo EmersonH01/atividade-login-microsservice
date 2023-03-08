@@ -60,15 +60,16 @@ public class UsuarioController {
 	@Value("${ambiente.deploy}")
 	private String profile;
 
-	
 	@PostMapping("/login")
-    public ResponseEntity<String> autenticar(@RequestBody UsuarioModel usuario) {
-        return ResponseEntity.status(401).body(senhaService.autenticar(usuario));
-    }
-	
+	public ResponseEntity<String> autenticar(@RequestBody UsuarioModel usuario) {
+		return ResponseEntity.status(401).body(senhaService.autenticar(usuario));
+	}
+
 	@PostMapping("/loginHartur")
 	public ResponseEntity<String> login(@RequestBody LoginDTO usuario) {
-		return usuarioService.login(usuario.getEmail(), usuario.getSenha());
+
+		return ResponseEntity.status(HttpStatus.OK)
+				.body(usuarioService.login(usuario.getEmail(), usuario.getSenha()).getBody());
 	}
 
 	@GetMapping("/listar")

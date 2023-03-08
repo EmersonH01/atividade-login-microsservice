@@ -39,41 +39,63 @@ public class UsuarioService {
 
 	/* login do usuario */
 	public ResponseEntity<String> login(String email, String senha) {
-		Optional<UsuarioModel> optionalUsuario = usuarioRepository.findByEmail(cryptoService.encrypt(email));
+	    if (!verificarEmail(email)) {
+	        return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("E-mail não existente em nosso sistema!");
+	    }
 
-		if (optionalUsuario.isPresent()) {
-			UsuarioModel usuarioBanco = optionalUsuario.get();
-			String emailDescriptografado = cryptoService.decrypt(usuarioBanco.getEmail());
+	    if (!verificarSenha(senha)) {
+	        UsuarioModel usuario = null;
+	        int tentativas = usuario.getTentativaLogin() + 1;
+	        usuario.setTentativaLogin(tentativas);
 
-			if (emailDescriptografado.equals(email) && usuarioBanco.getSenha().equals(senha)) {
-				usuarioBanco.setTentativaLogin(0);
-				usuarioRepository.save(usuarioBanco);
-				return ResponseEntity.ok("Usuário autenticado com sucesso!");
-			} else {
-				Integer tentativasFalhas = usuarioBanco.getTentativaLogin() + 1;
-				usuarioBanco.setTentativaLogin(tentativasFalhas);
-				usuarioRepository.save(usuarioBanco);
-				if (tentativasFalhas >= 5) {
-					usuarioBanco.setStatus(StatusUsuarioEnum.bloqueado);
-					usuarioRepository.save(usuarioBanco);
-					return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
-							.body("Usuário bloqueado por muitas tentativas de login!");
-				}
-				return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
-						.body("Email ou senha incorretos! Tentativa " + tentativasFalhas + " de 5.");
-			}
-		}
-		return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Email não existe na nossa base de dados");
+	        if (tentativas >= 5) {
+	            usuario.setStatus(StatusUsuarioEnum.bloqueado);
+	        }
+
+	        usuarioRepository.save(usuario);
+
+	        return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Senha inválida! Tentativa " + tentativas + " de 5.");
+	    }
+
+	    return ResponseEntity.status(HttpStatus.ACCEPTED).body("Usuário logado");
 	}
 
+
+
+
+
+
+
 	
+	/*
+	 * if (optionalUsuario.isPresent()) { UsuarioModel usuarioBanco =
+	 * optionalUsuario.get(); String emailDescriptografado =
+	 * cryptoService.decrypt(usuarioBanco.getEmail());
+	 * 
+	 * if (emailDescriptografado.equals(email) &&
+	 * usuarioBanco.getSenha().equals(senha)) { usuarioBanco.setTentativaLogin(0);
+	 * usuarioRepository.save(usuarioBanco); return
+	 * ResponseEntity.ok("Usuário autenticado com sucesso!"); } else { Integer
+	 * tentativasFalhas = usuarioBanco.getTentativaLogin() + 1;
+	 * usuarioBanco.setTentativaLogin(tentativasFalhas);
+	 * usuarioRepository.save(usuarioBanco); if (tentativasFalhas >= 5) {
+	 * usuarioBanco.setStatus(StatusUsuarioEnum.bloqueado);
+	 * usuarioRepository.save(usuarioBanco); return
+	 * ResponseEntity.status(HttpStatus.UNAUTHORIZED)
+	 * .body("Usuário bloqueado por muitas tentativas de login!"); } return
+	 * ResponseEntity.status(HttpStatus.UNAUTHORIZED)
+	 * .body("Email ou senha incorretos! Tentativa " + tentativasFalhas + " de 5.");
+	 * } } return ResponseEntity.status(HttpStatus.UNAUTHORIZED).
+	 * body("Email não existe na nossa base de dados");
+	 */
+
 	public List<UsuarioModel> listarUsuariosDescriptografados() {
-	    List<UsuarioModel> usuarios = usuarioRepository.findAll();
-	    for (UsuarioModel usuario : usuarios) {
-	        String emailDescriptografado = cryptoService.decrypt(usuario.getEmail());
-	        usuario.setEmail(emailDescriptografado);
-	    }
-	    return usuarios;
+		List<UsuarioModel> usuarios = usuarioRepository.findAll();
+		for (UsuarioModel usuario : usuarios) {
+			String emailDescriptografado = cryptoService.decrypt(usuario.getEmail());
+			usuario.setEmail(emailDescriptografado);
+		}
+		return usuarios;
 	}
 
 	/* listar todos os usuarios através do metodo findAll da JpaRepository */
@@ -198,14 +220,26 @@ public class UsuarioService {
 
 	/* verifica se o email existe em nosso banco de dados */
 	public boolean verificarEmail(String email) {
-	    List<UsuarioModel> usuarios = usuarioRepository.findAll();
-	    for (UsuarioModel usuario : usuarios) {
-	        String emailDescriptografado = cryptoService.decrypt(usuario.getEmail());
-	        if (emailDescriptografado.equals(email)) {
-	            return false;
-	        }
-	    }
-	    return true;
+		List<UsuarioModel> usuarios = usuarioRepository.findAll();
+		for (UsuarioModel usuario : usuarios) {
+			String emailDescriptografado = cryptoService.decrypt(usuario.getEmail());
+			if (emailDescriptografado.equals(email)) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	/* verifica se a senha existe em nosso banco de dados */
+	public boolean verificarSenha(String senha) {
+		List<UsuarioModel> usuarios = usuarioRepository.findAll();
+		for (UsuarioModel usuario : usuarios) {
+			String senhaDescriptografado = cryptoService.decrypt(usuario.getSenha());
+			if (senhaDescriptografado.equals(senha)) {
+				return true;
+			}
+		}
+		return false;
 	}
 
 	/* atualiza o usuario através do email passado e retorna uma mensagem */
@@ -242,6 +276,38 @@ public class UsuarioService {
 	public Boolean excluirUsuario(Long id) {
 		usuarioRepository.deleteById(id);
 		return true;
+	}
+
+	/*
+	 * public String autenticar(String email, String senha) {
+	 * 
+	 * UsuarioModel usuario = usuarioRepository.findByEmail(email);
+	 * 
+	 * if (usuario == null) { return "Email não existe na nossa base de dados"; }
+	 * 
+	 * if (usuario.isBloqueado()) { return
+	 * "Usuário bloqueado por muitas tentativas de login!"; }
+	 * 
+	 * if (verificarSenha(senha)) { resetarTentativas(usuario); return
+	 * "Usuário autenticado com sucesso!"; } else { incrementarTentativas(usuario);
+	 * if (usuario.getTentativaLogin() >= 5) { bloquearUsuario(usuario); return
+	 * "Usuário bloqueado por muitas tentativas de login!"; } return
+	 * "Senha incorreta! Tentativa " + usuario.getTentativaLogin() + " de 5."; } }
+	 */
+
+	private void resetarTentativas(UsuarioModel usuario) {
+		usuario.setTentativaLogin(0);
+		usuarioRepository.save(usuario);
+	}
+
+	private void incrementarTentativas(UsuarioModel usuario) {
+		usuario.setTentativaLogin(usuario.getTentativaLogin() + 1);
+		usuarioRepository.save(usuario);
+	}
+
+	private void bloquearUsuario(UsuarioModel usuario) {
+		usuario.setStatus(StatusUsuarioEnum.bloqueado);
+		usuarioRepository.save(usuario);
 	}
 
 }
