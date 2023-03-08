@@ -3,18 +3,20 @@ package br.com.cruz.vita.usuario.repository;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import br.com.cruz.vita.usuario.model.UsuarioModel;
+import br.com.cruz.vita.usuario.service.CriptografiaService;
 
 @Repository
 public interface UsuarioRepository extends JpaRepository<UsuarioModel, Long> {
 
 	@Query(value = "SELECT *FROM usuario WHERE usuario.usuario = :usuario", nativeQuery = true)
-	Optional<UsuarioModel> findByEmail(@Param ("usuario") String email);
+	Optional<UsuarioModel> findByEmail(@Param("usuario") String email);
 
 	@Query(value = "SELECT * FROM usuario WHERE data_exclusao IS NOT NULL", nativeQuery = true)
 	List<UsuarioModel> findByDataExclusao();
@@ -24,6 +26,5 @@ public interface UsuarioRepository extends JpaRepository<UsuarioModel, Long> {
 
 	@Query(value = "SELECT * FROM usuario WHERE cpf = :cpf", nativeQuery = true)
 	Optional<UsuarioModel> findByCpf(@Param(value = "cpf") String cpf);
-	
 
 }

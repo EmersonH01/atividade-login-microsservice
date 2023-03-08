@@ -1,6 +1,6 @@
 package br.com.cruz.vita.usuario.exception;
 
-public class InvalidCpfException extends Exception {
+public class InvalidCpfException extends RuntimeException {
 
     /**
 	 * 

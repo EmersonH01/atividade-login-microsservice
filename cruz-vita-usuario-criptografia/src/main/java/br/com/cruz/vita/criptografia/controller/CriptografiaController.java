@@ -24,9 +24,10 @@ public class CriptografiaController {
 	}
 
 	@GetMapping("/decrypt/{passwordencrypto}")
-	public ResponseEntity<String> decryptPassword(String passwordencrypto) {
-		return ResponseEntity.status(HttpStatus.ACCEPTED).body(criptografiaService.descriptografar(passwordencrypto));
-	}
+    public ResponseEntity<String> decryptPassword(@PathVariable String passwordencrypto) {
+        String senhaDecriptografada = criptografiaService.descriptografar(passwordencrypto);
+        return ResponseEntity.status(HttpStatus.ACCEPTED).body(senhaDecriptografada);
+    }
 
 	@PostMapping("/teste")
 	public String testeDeMesa(@RequestBody String senha) {
