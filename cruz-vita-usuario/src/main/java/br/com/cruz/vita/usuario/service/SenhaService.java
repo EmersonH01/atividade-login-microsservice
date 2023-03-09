@@ -1,5 +1,7 @@
 package br.com.cruz.vita.usuario.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -13,9 +15,28 @@ public class SenhaService {
 
 	@Autowired
 	private UsuarioRepository usuarioRepository;
+	
+    @Autowired
+    private CriptografiaService criptografiaService;
+	
+    
+    public Boolean verificarEmailJaExiste(String email) {
+        List<UsuarioModel> usuarios = usuarioRepository.findAll();
+        descriptografarEmails(usuarios);
+        return usuarios.stream().noneMatch(usuario -> usuario.getEmail().equals(email));
+    }
 
-	public String autenticar(UsuarioModel usuario) {
-
+    
+    private void descriptografarEmails(List<UsuarioModel> usuarios) {
+        for (UsuarioModel usuario : usuarios) {
+            String emailDescriptografado = criptografiaService.decrypt(usuario.getEmail());
+            usuario.setEmail(emailDescriptografado);
+        }
+    }
+    
+   
+	public String autenticar(UsuarioModel usuario) {	
+		
 		if (usuarioRepository.findByEmail(usuario.getEmail()).isPresent()) {
 			UsuarioModel usuarioBanco = usuarioRepository.findByEmail(usuario.getEmail()).get();
 			UsuarioModel usuarioModel = usuario;
@@ -33,6 +54,7 @@ public class SenhaService {
 			} else {
 				usuarioBanco = usuarioRepository.findByEmail(usuario.getEmail()).get();
 				Integer tentativasFalhas = usuarioBanco.getTentativaLogin();
+				
 				usuarioModel.setTentativaLogin(tentativasFalhas + 1);
 				usuarioModel.setStatus(usuarioBanco.getStatus());
 

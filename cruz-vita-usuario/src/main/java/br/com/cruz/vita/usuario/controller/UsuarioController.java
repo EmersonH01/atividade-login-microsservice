@@ -48,9 +48,6 @@ public class UsuarioController {
 	@Autowired
 	private UsuarioRepository userRepository;
 
-	@Autowired
-	private Environment environment;
-
 	@Value("${ambiente.deploy}")
 	private String profile;
 

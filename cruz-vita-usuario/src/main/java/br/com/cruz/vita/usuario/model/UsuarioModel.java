@@ -60,9 +60,5 @@ public class UsuarioModel {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id_pessoa")
 	private Long idPessoa;
-	
-	
-	
-	
-
+		
 }

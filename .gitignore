@@ -26,3 +26,48 @@ local.properties
 
 # Locally stored "Eclipse launch configurations"
 *.launch
+
+
+aeec2cd6074742a3c64de5e6c54b27400254f888
+
+
+primeiro passo  : 
+- fazer uma busca conjunta (findAll )
+
+segundo passo :
+- percorrer (for)
+
+Terc passo :
+- descriptografar um usuario e depois comparar usuarios (existe/não existe)
+
+querto passo :
+- comparar senha digitada 
+
+
+
+
+descrevendo o que esta acontecendo no codigo 
+
+Esse código é um método que verifica se um email já existe na lista de usuários cadastrados no sistema.
+
+Primeiro, ele chama o método findAll() do usuarioRepository para buscar todos os usuários cadastrados.
+
+ Em seguida, ele chama o método descriptografarEmails(usuarios) para descriptografar os emails dos usuários.
+
+O método descriptografarEmails(List<UsuarioModel> usuarios) percorre a lista de usuários recebida como parâmetro e para cada usuário, descriptografa o email utilizando
+ o serviço de criptografia criptografiaService. 
+
+
+O email descriptografado é então atribuído de volta ao objeto usuario.
+
+Depois que todos os emails dos usuários são descriptografados, o método principal utiliza a função noneMatch da classe Stream para verificar se nenhum usuário possui um email igual ao email recebido como parâmetro. 
+A função noneMatch retorna true se nenhum usuário tiver um email igual ao email recebido, ou false caso contrário.
+
+Por fim, o método retorna o resultado da verificação, indicando se o email recebido já está em uso ou não.
+
+
+
+
+Regenerate response
+
+

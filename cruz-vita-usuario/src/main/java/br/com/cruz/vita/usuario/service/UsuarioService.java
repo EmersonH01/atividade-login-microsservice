@@ -182,9 +182,9 @@ public class UsuarioService {
 	public Boolean verificarEmailJaExiste(String email) {
 
 		if (usuarioRepository.findByEmail(email).isPresent()) {
-			return true;
-		} else {
 			return false;
+		} else {
+			return true;
 		}
 	}
 
